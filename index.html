@@ -247,13 +247,12 @@ var map = L.mapbox.map('map-three', 'mapbox.light', {
   scrollWheelZoom: false,
   maxZoom: 18,
   minZoom: 12
-}).setView([19.420863, -99.172134], 17);
-var myLayer = L.mapbox.featureLayer('mapbox.dc-markers').addTo(map);
-myLayer.on('layeradd', function(e) {
-  var popupContent = '<strong>' + e.layer.feature.properties.title + '</strong> <br />This map created with <a href="https://mapbox.com">Mapbox</a>!';
-  e.layer.bindPopup(popupContent);
-});
+}).setView([19.420863, -99.172134], 14);
 L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+var featureLayer = L.mapbox.featureLayer()
+    .loadURL('assets/markers.geojson')
+    .addTo(map);
+
 </script>
    
 <script>

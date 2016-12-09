@@ -1,0 +1,1028 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "": "3",
+        "Afiliación": "Ninguna",
+        "Costo": "$200",
+        "DireccionCorta": "Francisco Ayala 59,\nCol. Vista Alegre",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Red Mexicana de Personas que Viven con VIH/SIDA, A. C.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Red Mexicana de Personas que Viven con VIH/SIDA, A. C.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Francisco Ayala 59 (Planta Baja),\nCol. Vista Alegre</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$200</b></a>",
+        "Dirección": "Francisco Ayala 59 (Planta Baja),\nCol. Vista Alegre",
+        "Costo2": "200",
+        "Otros": "También hay tratamiento de otras ITS",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Francisco Ayala 59 (Planta Baja),Col. Vista Alegre, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5273-7308",
+        "Preparación.Pre": "Hacer cita de preferencia",
+        "Nombre.Corto": "Red Mexicana de Personas que Viven con VIH/SIDA",
+        "Horario.de.Atención": "Lunes a Viernes de 12pm a 7pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.133854,
+          19.410553
+        ],
+        "type": "Point"
+      },
+      "id": "11882b3d129d4831eea8b4d94047acbe"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "30",
+        "Afiliación": "Ninguna",
+        "Costo": "$340",
+        "DireccionCorta": "Puebla 308, Col. Roma",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Laboratorio Clínico Gram",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio Clínico Gram</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Puebla 308, Col. Roma</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$340</b></a>",
+        "Dirección": "Puebla 308, Col. Roma",
+        "Costo2": "340",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": "Puebla 308, Col. Roma, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5533-2476",
+        "Preparación.Pre": "Ayuno 8 horas",
+        "Nombre.Corto": "Laboratorio Clínico Gram",
+        "Horario.de.Atención": "L-V 7am - 12pm\nS 8am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.170474,
+          19.420686
+        ],
+        "type": "Point"
+      },
+      "id": "141d83b57e186a039f05d85d3d6787e9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "19",
+        "Afiliación": "Ninguna",
+        "Costo": "$615",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Biomédica de Referencia",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Biomédica de Referencia</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b></b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$615</b></a>",
+        "Dirección": "",
+        "Costo2": "615",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "",
+        "Teléfono": "Por Sucursal",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Biomédica de Referencia",
+        "Horario.de.Atención": "Por sucursal\nPromedio L-V 7am - 4pm\nS 7am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "180323a1515a84e8a4ef490ed3d60e4d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "28",
+        "Afiliación": "Ninguna",
+        "Costo": "$300",
+        "DireccionCorta": "Francisco del Paso y Troncoso 973, Col. San Miguel Iztacalco",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Laboratorios Génesis",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorios Génesis</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Francisco del Paso y Troncoso 973, Col. San Miguel Iztacalco</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$300</b></a>",
+        "Dirección": "Francisco del Paso y Troncoso 973, Col. San Miguel Iztacalco",
+        "Costo2": "300",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": "Francisco del Paso y Troncoso 973, Col. San Miguel Iztacalco, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5673-7333",
+        "Preparación.Pre": "Ninguno",
+        "Nombre.Corto": "Laboratorios Génesis",
+        "Horario.de.Atención": "L-V 7:30am - 6pm\nS 7:30am - 6pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.11353,
+          19.393732
+        ],
+        "type": "Point"
+      },
+      "id": "20a16c6b8128779e65aeaaf4b5526c7b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "31",
+        "Afiliación": "Ninguna",
+        "Costo": "$785 \n$511 Descuento callcenter",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Laboratorio OLAB",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio OLAB</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$785 \n$511 Descuento callcenter</b></a>",
+        "Dirección": "",
+        "Costo2": "785",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil\nViernes a Lunes \nSábado a Martes",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "4747-8100",
+        "Preparación.Pre": "Ayuno 8 horas",
+        "Nombre.Corto": "Laboratorio OLAB",
+        "Horario.de.Atención": "L-V 7am - 1 pm\nS 7am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "2d834b40647b603ec355261146cce8e4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "29",
+        "Afiliación": "Ninguna",
+        "Costo": "$600",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Laboratorio Olarte y Akle",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio Olarte y Akle</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$600</b></a>",
+        "Dirección": "",
+        "Costo2": "600",
+        "Otros": "Se puede realizar a domicilio agendarlo 2 días antes con costo extra $300\nToda la información es la misma en todas las sucursales",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "Mismo día si se toma la muestra antes de la 10am si no 1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "Por Sucursal",
+        "Preparación.Pre": "Ayuno 8 horas",
+        "Nombre.Corto": "Laboratorio Olarte y Akle",
+        "Horario.de.Atención": "L-V 7am - 7pm\nS 7am - 1pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "347c0bf362ad45106d6d0862c0ab56d3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "22",
+        "Afiliación": "Ninguna",
+        "Costo": "$170",
+        "DireccionCorta": "San José de los Cedros No. 39, Cuajimalpa, Distrito Federal.",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Laboratorios MASALUD",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorios MASALUD</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>San José de los Cedros No. 39\nCol. San Jose de los Cedro, Cuajimalpa, Distrito Federal.</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$170</b></a>",
+        "Dirección": "San José de los Cedros No. 39\nCol. San Jose de los Cedro, Cuajimalpa, Distrito Federal.",
+        "Costo2": "170",
+        "Otros": "Sucursal única, información no actualizada en su página",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "Mismo día si se toma la muestra antes de las 12pm si no 1 día hábil",
+        "address": "San José de los Cedros No. 39Col. San Jose de los Cedro, Cuajimalpa, Distrito Federal., Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "2650-6823",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Laboratorios MASALUD",
+        "Horario.de.Atención": "L-V 7am - 7pm\nS 7am - 5pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.288471,
+          19.365747
+        ],
+        "type": "Point"
+      },
+      "id": "3c65d75cedb05a91ad92e934fc1ce184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "15",
+        "Afiliación": "Ninguna",
+        "Costo": "$579 Promoción, cambia mensualmente",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "AC de virus de inmunodeficiencia en suero\nMétodo inmunoensayo quimiolumiscente",
+        "Institución": "Laboratorio Médico del Chopo",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio Médico del Chopo</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>AC de virus de inmunodeficiencia en suero\nMétodo inmunoensayo quimiolumiscente</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$579 Promoción, cambia mensualmente</b></a>",
+        "Dirección": "",
+        "Costo2": "579",
+        "Otros": "Cuenta con servicio de urgencia con costo adicional",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil si se realiza de L-V\n2 o 3 días si es fin de semana",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "1946-0606",
+        "Preparación.Pre": "Ayuno de 8 horas con agua permitida",
+        "Nombre.Corto": "Laboratorio Médico del Chopo",
+        "Horario.de.Atención": "Por sucursal\nPromedio L-V 7am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "4621b4281ad04284e3634b62624cdbaf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "27",
+        "Afiliación": "Ninguna",
+        "Costo": "$200",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Laboratorio médico Hectre",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio médico Hectre</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$200</b></a>",
+        "Dirección": "",
+        "Costo2": "200",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "Mismo día",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "Por Sucursal",
+        "Preparación.Pre": "Ayuno 8 horas",
+        "Nombre.Corto": "Laboratorio médico Hectre",
+        "Horario.de.Atención": "L-S 7am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "4efba42684dcfb79573fda70dd086131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "23",
+        "Afiliación": "Ninguna",
+        "Costo": "$320",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Laboratorio del Tepeyac",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio del Tepeyac</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$320</b></a>",
+        "Dirección": "",
+        "Costo2": "320",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5369-7745",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Laboratorio del Tepeyac",
+        "Horario.de.Atención": "Por sucursal\nPromedio L-S 7am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "56b266cf5c50b9e0199cceae7d941fd1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "21",
+        "Afiliación": "Ninguna",
+        "Costo": "$180",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Prueba Elisa",
+        "Institución": "Laboratorio de Patología Clínica Integral LAPCI",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio de Patología Clínica Integral LAPCI</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Prueba Elisa</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$180</b></a>",
+        "Dirección": "",
+        "Costo2": "180",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5207-3380",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Laboratorio de Patología Clínica Integral LAPCI",
+        "Horario.de.Atención": "L-S 8am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "57b6a9cb19d13a9444a518cfd47e3c81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "7",
+        "Afiliación": "Ninguna",
+        "Costo": "Gratuita",
+        "DireccionCorta": "Genova 30, Zona Rosa\nCol. Juarez",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Inspira Cambio, A.C.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Inspira Cambio, A.C.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Genova 30, Zona Rosa\nCol. Juarez</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Gratuita</b></a>",
+        "Dirección": "Genova 30, Zona Rosa\nCol. Juarez",
+        "Costo2": "0",
+        "Otros": "",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Genova 30, Zona RosaCol. Juarez, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5566-1528\n5519-6070",
+        "Preparación.Pre": "Ninguno",
+        "Nombre.Corto": "Inspira Cambio",
+        "Horario.de.Atención": "Lunes a Viernes de 10 am a 7pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.164302,
+          19.427002
+        ],
+        "type": "Point"
+      },
+      "id": "6f89df711b304c6c9d6e44a2cfed9774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "33",
+        "Afiliación": "Ninguna",
+        "Costo": "Promoción marzo $414\nRegular $918",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Iminioluminiscencia",
+        "Institución": "Laboratorios Clínicos Azteca",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorios Clínicos Azteca</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Iminioluminiscencia</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Promoción marzo $414\nRegular $918</b></a>",
+        "Dirección": "",
+        "Costo2": "414",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5858-0900",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Laboratorios Clínicos Azteca",
+        "Horario.de.Atención": "Por sucursal \nPromedio 7am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "78d9dc0d5c5d4140c4468ae516a56c27"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "20",
+        "Afiliación": "Ninguna",
+        "Costo": "$100",
+        "DireccionCorta": "Nogal 71, Col. Santa María la Ribera",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Diagnóstico Enzimático y Molecular",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Diagnóstico Enzimático y Molecular</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Nogal 71, Col. Santa María la Ribera</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$100</b></a>",
+        "Dirección": "Nogal 71, Col. Santa María la Ribera",
+        "Costo2": "100",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": "Nogal 71, Col. Santa María la Ribera, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5264-6617\n5264-7554",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Diagnóstico Enzimático y Molecular",
+        "Horario.de.Atención": "L-V  8:30am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.164325,
+          19.446016
+        ],
+        "type": "Point"
+      },
+      "id": "7a37a4c8df316887eb0a5559076eeccf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "14",
+        "Afiliación": "Ninguna",
+        "Costo": "$438",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Método inmunoensayo quimiolumiscente",
+        "Institución": "Laboratorio Médico Polanco",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio Médico Polanco</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Método inmunoensayo quimiolumiscente</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$438</b></a>",
+        "Dirección": "",
+        "Costo2": "438",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5080-1910",
+        "Preparación.Pre": "Ayuno recomendable 4hrs",
+        "Nombre.Corto": "Laboratorio Médico Polanco",
+        "Horario.de.Atención": "L-S 7am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "7fb19c86f508fc2f8514ac909e73a5cf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "9",
+        "Afiliación": "Ninguna",
+        "Costo": "Cooperación voluntaria",
+        "DireccionCorta": "Corregidora 115, Despacho 204\nCol. Centro",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Brigada Callejera de Apoyo a la Mujer “Elisa Martínez”, A. C.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Brigada Callejera de Apoyo a la Mujer “Elisa Martínez”, A. C.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Corregidora 115, Despacho 204\nCol. Centro</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Cooperación voluntaria</b></a>",
+        "Dirección": "Corregidora 115, Despacho 204\nCol. Centro",
+        "Costo2": "NA",
+        "Otros": "",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Corregidora 115, Despacho 204Col. Centro, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5542-7835\n5542-4096",
+        "Preparación.Pre": "Ninguno",
+        "Nombre.Corto": "Brigada Callejera de Apoyo a la Mujer",
+        "Horario.de.Atención": "De Lunes a viernes de 10:30am a 6pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.137313,
+          19.430267
+        ],
+        "type": "Point"
+      },
+      "id": "84383476e2a8b850f77ec315928fa276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "17",
+        "Afiliación": "Ninguna",
+        "Costo": "$200\n$560 Paquete",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Rápidas",
+        "Institución": "Marie Stopes México",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Marie Stopes México</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápidas</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sí</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$200\n$560 Paquete</b></a>",
+        "Dirección": "",
+        "Costo2": "200",
+        "Otros": "Paquete para Clamidia, VIH, Sífilis y Hepatitis C\nConsulta con interpretación de resultados",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "Al momento con estancia de 1 hora en clínica",
+        "address": ", Mexico DF",
+        "Consejería": "Sí",
+        "Teléfono": "5543-0000",
+        "Preparación.Pre": "Hacer cita",
+        "Nombre.Corto": "Marie Stopes México",
+        "Horario.de.Atención": "L- S 8am - 6pm \nD 8am - 3pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "96a0eebc9944d653777583ae0e68362d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "4",
+        "Afiliación": "Ninguna",
+        "Costo": "$150",
+        "DireccionCorta": "Rio Nazas 135 Piso 4 \nCol. Cuauhtémoc",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Asociación Mexicana de Servicios Asistenciales en VIH. I. A. P. – AMSAVIH",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Asociación Mexicana de Servicios Asistenciales en VIH. I. A. P. – AMSAVIH</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Rio Nazas 135 Piso 4 \nCol. Cuauhtémoc</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$150</b></a>",
+        "Dirección": "Rio Nazas 135 Piso 4 \nCol. Cuauhtémoc",
+        "Costo2": "150",
+        "Otros": "También hay pruebas rápidas de sífilis, hepatitis y tratamiento de ITS",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Rio Nazas 135 Piso 4 Col. Cuauhtémoc, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5525-7417",
+        "Preparación.Pre": "Hacer cita por teléfono o Facebook",
+        "Nombre.Corto": "Asociación Mexicana de Servicios Asistenciales en VIH",
+        "Horario.de.Atención": "Lunes y miércoles de 5 a 9pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.170149,
+          19.431064
+        ],
+        "type": "Point"
+      },
+      "id": "a0d2659ff3f012a0bcc4c01c49853bf0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "2",
+        "Afiliación": "Seguro Popular",
+        "Costo": "Gratuita",
+        "DireccionCorta": "Benjamin Hill No. 24\nCol. Condesa, C.P. 06140",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Clínica Condesa",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Clínica Condesa</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Benjamin Hill No. 24\nCol. Condesa, C.P. 06140</a><br><a>Afiliación <b>Seguro Popular</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y Después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Gratuita</b></a>",
+        "Dirección": "Benjamin Hill No. 24\nCol. Condesa, C.P. 06140",
+        "Costo2": "0",
+        "Otros": "",
+        "Tipo.de.Institución": "Pública",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Benjamin Hill No. 24Col. Condesa, C.P. 06140, Mexico DF",
+        "Consejería": "Antes y Después",
+        "Teléfono": "5515-8311\n5271-6439",
+        "Preparación.Pre": "Ninguna",
+        "Nombre.Corto": "Clínica Condesa",
+        "Horario.de.Atención": "8:00 am a 6:00 pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.177446,
+          19.41498
+        ],
+        "type": "Point"
+      },
+      "id": "a15b643781aa65db7b7a160458026229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "8",
+        "Afiliación": "Ninguna",
+        "Costo": "Gratuita",
+        "DireccionCorta": "Florencia 41\nCol. Juárez",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "AHF AIDS Healthcare Foundation",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>AHF AIDS Healthcare Foundation</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Florencia 41\nCol. Juárez</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Gratuita</b></a>",
+        "Dirección": "Florencia 41\nCol. Juárez",
+        "Costo2": "0",
+        "Otros": "Tambien hay pruebas de sífilis",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Florencia 41Col. Juárez, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5264-8208",
+        "Preparación.Pre": "Se puede hacer cita para valoración de otras ITS",
+        "Nombre.Corto": "AHF AIDS Healthcare Foundation",
+        "Horario.de.Atención": "Lunes a Viernes 12pm a 8pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.166662,
+          19.424545
+        ],
+        "type": "Point"
+      },
+      "id": "a343ebbddf886036286f4ae24fb5dd49"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "5",
+        "Afiliación": "Ninguna",
+        "Costo": "$180 y $300 (4ta generación, detecta en 3 semanas)",
+        "DireccionCorta": "Gumersindo Esquer 34\nCol. Ampliación Asturias",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Centro de Atención Profesional a Personas con SIDA, A. C. – CAPPSIDA",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Centro de Atención Profesional a Personas con SIDA, A. C. – CAPPSIDA</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Gumersindo Esquer 34\nCol. Ampliación Asturias</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$180 y $300 (4ta generación, detecta en 3 semanas)</b></a>",
+        "Dirección": "Gumersindo Esquer 34\nCol. Ampliación Asturias",
+        "Costo2": "180",
+        "Otros": "",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Gumersindo Esquer 34Col. Ampliación Asturias, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5740-3402",
+        "Preparación.Pre": "Hacer cita 1 dia antes, pero no es obligatorio",
+        "Nombre.Corto": "Centro de Atención Profesional a Personas con SIDA",
+        "Horario.de.Atención": "Lunes a viernes de 9am a 8pm y sábados de 11am a 4pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.134511,
+          19.407122
+        ],
+        "type": "Point"
+      },
+      "id": "a73f6febb8561619160b0284f633ec2f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "11",
+        "Afiliación": "Ninguna",
+        "Costo": "$220",
+        "DireccionCorta": "Calz Tlalpan 648, Col. Moderna",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Fundación Mexicana para la Planeación Familiar, A. C. - MEXFAM Clínica Xola",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Fundación Mexicana para la Planeación Familiar, A. C. - MEXFAM Clínica Xola</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Calz Tlalpan 648, Col. Moderna</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$220</b></a>",
+        "Dirección": "Calz Tlalpan 648, Col. Moderna",
+        "Costo2": "220",
+        "Otros": "También hay médicos para ITS",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "2 días hábiles",
+        "address": "Calz Tlalpan 648, Col. Moderna, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5781-7188",
+        "Preparación.Pre": "Asistir en ayuno",
+        "Nombre.Corto": "Fundación Mexicana para la Planeación Familiar",
+        "Horario.de.Atención": "Lunes a Sábado de 8am a 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.137398,
+          19.39524
+        ],
+        "type": "Point"
+      },
+      "id": "a961c8eda7fac03cac696e3ef3dbd81b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "25",
+        "Afiliación": "Ninguna",
+        "Costo": "$395",
+        "DireccionCorta": "José María Velasco 21, Col.  San José Insurgentes",
+        "Tipo.de.Prueba": "Prueba Elisa",
+        "Institución": "Biomédica Revolución",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Biomédica Revolución</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>José María Velasco 21, Col.  San José Insurgentes</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Prueba Elisa</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$395</b></a>",
+        "Dirección": "José María Velasco 21, Col.  San José Insurgentes",
+        "Costo2": "395",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": "José María Velasco 21, Col.  San José Insurgentes, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5593-2508\n5593-6047",
+        "Preparación.Pre": "Ayuno de 4 horas",
+        "Nombre.Corto": "Biomédica Revolución",
+        "Horario.de.Atención": "L-V 7:30am - 7pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.187521,
+          19.364395
+        ],
+        "type": "Point"
+      },
+      "id": "b1e7bf4faeb32bb903a730dcf6468d3d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "10",
+        "Afiliación": "Ninguna",
+        "Costo": "$150",
+        "DireccionCorta": "19 No. 75\nCol. San Pedro de los Pinos",
+        "Tipo.de.Prueba": "Rapida (4ta generación)",
+        "Institución": "Fundación Mexicana para la Lucha contra el SIDA, A. C.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Fundación Mexicana para la Lucha contra el SIDA, A. C.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>19 No. 75\nCol. San Pedro de los Pinos</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rapida (4ta generación)</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$150</b></a>",
+        "Dirección": "19 No. 75\nCol. San Pedro de los Pinos",
+        "Costo2": "150",
+        "Otros": "También hay pruebas de sífilis",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "19 No. 75Col. San Pedro de los Pinos, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5515-7913\n5273-8741",
+        "Preparación.Pre": "Hacer cita",
+        "Nombre.Corto": "Fundación Mexicana para la Lucha contra el SIDA",
+        "Horario.de.Atención": "De lunes a viernes de 11am a 5pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.188538,
+          19.388836
+        ],
+        "type": "Point"
+      },
+      "id": "b3516eb38eb77996cf7c92ec92a1f812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "16",
+        "Afiliación": "Ninguna",
+        "Costo": "$430\nPromoción $365",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Sanguínea",
+        "Institución": "Laboratorio Clínico Jenner",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorio Clínico Jenner</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Sanguínea</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$430\nPromoción $365</b></a>",
+        "Dirección": "",
+        "Costo2": "430",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "2 días hábiles",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5803-3469",
+        "Preparación.Pre": "Ayuno de 4 horas",
+        "Nombre.Corto": "Laboratorio Clínico Jenner",
+        "Horario.de.Atención": "Por Sucursal\nPromedio L-V 7am - 5:30pm\nSábado de 7am 2pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "c1f279abb5b1c8aa33dce13661033afd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "1",
+        "Afiliación": "Seguro Popular",
+        "Costo": "Gratuita",
+        "DireccionCorta": "Combate de Celaya S/N, Delegación Iztapalapa, C.P. 09200",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Clínica Especializada en VIH Condesa Iztapalapa, Dr. Jaime Sepulveda Amor.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Clínica Especializada en VIH Condesa Iztapalapa, Dr. Jaime Sepulveda Amor.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Combate de Celaya S/N entre Calle 1 Francisco Rivera y Calle 2 Francisco Rivera, Unidad Habitacional Vicente Guerrero, Delegación Iztapalapa, C.P. 09200</a><br><a>Afiliación <b>Seguro Popular</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y Después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Gratuita</b></a>",
+        "Dirección": "Combate de Celaya S/N entre Calle 1 Francisco Rivera y Calle 2 Francisco Rivera, Unidad Habitacional Vicente Guerrero, Delegación Iztapalapa, C.P. 09200",
+        "Costo2": "0",
+        "Otros": "",
+        "Tipo.de.Institución": "Pública",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Combate de Celaya S/N entre Calle 1 Francisco Rivera y Calle 2 Francisco Rivera, Unidad Habitacional Vicente Guerrero, Delegación Iztapalapa, C.P. 09200, Mexico DF",
+        "Consejería": "Antes y Después",
+        "Teléfono": "5038-1700\next. 7902 y 7904",
+        "Preparación.Pre": "Ninguna",
+        "Nombre.Corto": "Clínica Especializada en VIH Condesa Iztapalapa",
+        "Horario.de.Atención": "8:00 am a 6:00 pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.051471,
+          19.354596
+        ],
+        "type": "Point"
+      },
+      "id": "d1a8510f67c8b9d126eaf7ee2f490ee0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "6",
+        "Afiliación": "Ninguna",
+        "Costo": "$150",
+        "DireccionCorta": "Camelia 268, despacho 8\nCol. Buenavista",
+        "Tipo.de.Prueba": "Rápida",
+        "Institución": "Fundación Clemades Cuenta Conmigo, A. C.",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Fundación Clemades Cuenta Conmigo, A. C.</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Camelia 268, despacho 8\nCol. Buenavista</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Rápida</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Antes y después</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$150</b></a>",
+        "Dirección": "Camelia 268, despacho 8\nCol. Buenavista",
+        "Costo2": "150",
+        "Otros": "También hay pruebas rápidas de sífilis y Hepatitis C a $150 c/u ",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "Menos de 1 hora",
+        "address": "Camelia 268, despacho 8Col. Buenavista, Mexico DF",
+        "Consejería": "Antes y después",
+        "Teléfono": "5529-2012",
+        "Preparación.Pre": "Hacer cita de preferencia",
+        "Nombre.Corto": "Fundación Clemades Cuenta Conmigo",
+        "Horario.de.Atención": "Martes de 6pm a 9pm y sábado de 9am a 4pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.149766,
+          19.445844
+        ],
+        "type": "Point"
+      },
+      "id": "d277955c4e8a4b6f1abecd183dcfa9b6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "26",
+        "Afiliación": "Ninguna",
+        "Costo": "$340.82",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Biomedicos Imagen Diagnóstica y Laboratorios",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Biomedicos Imagen Diagnóstica y Laboratorios</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$340.82</b></a>",
+        "Dirección": "",
+        "Costo2": "340",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5449-5449",
+        "Preparación.Pre": "Ayuno de 8 horas",
+        "Nombre.Corto": "Biomedicos Imagen Diagnóstica y Laboratorios",
+        "Horario.de.Atención": "L-S 7am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "d623cf3829af30b354a601d2cbb3e4e8"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "18",
+        "Afiliación": "Ninguna",
+        "Costo": "$230",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Presuntiva",
+        "Institución": "Laboratorios Xotepingo",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorios Xotepingo</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Presuntiva</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$230</b></a>",
+        "Dirección": "",
+        "Costo2": "230",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "Si antes de las 10, el misma por la tarde\nSi no al día hábil siguiente",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5684-0021\n4167-4774",
+        "Preparación.Pre": "Ayuno de 8 a 10 horas",
+        "Nombre.Corto": "Laboratorios Xotepingo",
+        "Horario.de.Atención": "Por Sucursal\nPromedio 7am - 12pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "e2376e17849ce0ee3cefe6dbde62c822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "24",
+        "Afiliación": "Ninguna",
+        "Costo": "$400\nPromoción 30% en efectivo 25% tarjeta de 7am-7:30am",
+        "DireccionCorta": "Piñon 158-B, Col. Nueva Santa María",
+        "Tipo.de.Prueba": "Anticuerpos antiHIV",
+        "Institución": "Investigaciones Clínicas Nueva Santa María SNM",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Investigaciones Clínicas Nueva Santa María SNM</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Piñon 158-B, Col. Nueva Santa María</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Anticuerpos antiHIV</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$400\nPromoción 30% en efectivo 25% tarjeta de 7am-7:30am</b></a>",
+        "Dirección": "Piñon 158-B, Col. Nueva Santa María",
+        "Costo2": "400",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": "Piñon 158-B, Col. Nueva Santa María, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5355-3149\n5556-6229",
+        "Preparación.Pre": "Ayuno de 4 horas",
+        "Nombre.Corto": "Investigaciones Clínicas Nueva Santa María ",
+        "Horario.de.Atención": "L-V 7am - 5pm\nS 7am - 2pm"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.171103,
+          19.464144
+        ],
+        "type": "Point"
+      },
+      "id": "e43751cd2b4dda468be35b949fd2aa3c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "32",
+        "Afiliación": "Ninguna",
+        "Costo": "Promoción Anual $390\nRegular $781",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Quest Diagnostics",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Quest Diagnostics</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Promoción Anual $390\nRegular $781</b></a>",
+        "Dirección": "",
+        "Costo2": "390",
+        "Otros": "Se puede realizar a domicilio agendarlo antes de las 3pm con costo extra $395 para el siguiente día",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "3 días hábiles",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "4160-7777",
+        "Preparación.Pre": "Ayuno de 4 horas",
+        "Nombre.Corto": "Quest Diagnostics",
+        "Horario.de.Atención": "L-S 7am - 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "e84ee59b05439d35c4cd0e54066b1a7f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "12",
+        "Afiliación": "Ninguna",
+        "Costo": "$190",
+        "DireccionCorta": "Ponciano Arriaga #28, col. Tabacalera",
+        "Tipo.de.Prueba": "Laboratorio",
+        "Institución": "Fundación Mexicana para la Planeación Familiar, A. C. - MEXFAM Clínica Revolución",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Fundación Mexicana para la Planeación Familiar, A. C. - MEXFAM Clínica Revolución</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'>Ponciano Arriaga #28, col. Tabacalera</a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Laboratorio</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$190</b></a>",
+        "Dirección": "Ponciano Arriaga #28, col. Tabacalera",
+        "Costo2": "190",
+        "Otros": "También hay médicos para ITS",
+        "Tipo.de.Institución": "A.C.",
+        "Tiempo.p.resultados": "2 días hábiles",
+        "address": "Ponciano Arriaga #28, col. Tabacalera, Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5487-0030",
+        "Preparación.Pre": "Asistir en ayuno",
+        "Nombre.Corto": "Fundación Mexicana para la Planeación Familiar",
+        "Horario.de.Atención": "Lunes a Sábado de 8am a 11am"
+      },
+      "geometry": {
+        "coordinates": [
+          -98.589779,
+          22.262507
+        ],
+        "type": "Point"
+      },
+      "id": "eb3eb74169d2f501e82bed7064b4be81"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "": "13",
+        "Afiliación": "Ninguna",
+        "Costo": "$647",
+        "DireccionCorta": "",
+        "Tipo.de.Prueba": "Prueba ELISA",
+        "Institución": "Laboratorios LAPI",
+        "Popup": "<a style=\\'color=#FFCC33\\'><b>Laboratorios LAPI</b></a>\n                     <br><hr style=\\'#f2f3f4\\'>\n                     <a style=\\'color=#f2f3f4\\'></a><br><a>Afiliación <b>Ninguna</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>Prueba ELISA</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>No</b></a><br><img src='https://raw.githubusercontent.com/EduardoClark/SinDudas/master/www/assets/Gratis.png' style=\\'width:2.5%;height:2.5%;\\'><a><b>$647</b></a>",
+        "Dirección": "",
+        "Costo2": "647",
+        "Otros": "",
+        "Tipo.de.Institución": "Laboratorio Privado",
+        "Tiempo.p.resultados": "1 día hábil",
+        "address": ", Mexico DF",
+        "Consejería": "No",
+        "Teléfono": "5593-7517",
+        "Preparación.Pre": "Ninguno",
+        "Nombre.Corto": "Laboratorios LAPI",
+        "Horario.de.Atención": "L-S 7am - 11:30am"
+      },
+      "geometry": {
+        "coordinates": [
+          -99.101349,
+          19.246469
+        ],
+        "type": "Point"
+      },
+      "id": "f61713b2831458f10cd5766f75094c57"
+    }
+  ],
+  "type": "FeatureCollection"
+}
