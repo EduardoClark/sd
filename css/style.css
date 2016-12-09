@@ -89,10 +89,76 @@ div.slider-handle{
     background: white;
 }
 
-.slider-selection {
-	background: #5047C5;
+#ex1 slider-selection{	
+    color: #5047C5;
 }
 
+.tooltip-inner {
+	background-color: transparent;
+    color:#5047C5;
+    font-weight: bold;
+}
+
+.tooltip.top .tooltip-arrow {
+	border-top-color: transparent;
+}
+
+#lista-clinicas {
+margin-top: 30px;
+}
+
+.list-group-item{
+margin: 0 0 15px 0;
+padding-bottom: 15px;
+}
+
+.clinic-name {
+font-weight: bold;
+color: #5047C5;
+font-size:20px;
+}
+
+.clinic-adress {
+color: #939393;
+font-size:15px;
+}
+
+.see-map {
+color: #5047C5;
+font-size:15px;
+position: absolute;
+right: 10px;
+}
+
+.insurance {
+color: #696969;
+font-size:15px;
+}
+
+.assistance {
+color: #696969;
+font-size:15px;
+}
+
+.type {
+color: #696969;
+font-size:15px;
+}
+
+.cost {
+color: #696969;
+font-size:15px;
+}
+
+.button-moreinfo{
+position: absolute;
+right: 10px;
+vertical-align:middle;
+}
+
+.btn-info{
+background-color:#5047C5;
+}
 
 /* footer*/
 
@@ -108,9 +174,6 @@ line-height: 400%;
 
 .footer > p {
 margin:20px;
-
 }	
 
-#ex1Slider .slider-selection {
-	background: #BABABA;
-}
+

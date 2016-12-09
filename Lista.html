@@ -1,24 +1,23 @@
 <html>
 
 <head>
-  <title>Sin Dudas</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
-  <link rel="shortcut icon" href="/assets/1.ico" />
-  <script src="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
+    <title>Sin Dudas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="/assets/1.ico" />
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
 </head>
 
 <body>
-
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -60,17 +59,17 @@
     <div class="jumbotron" id="content">
         <p align="center"> Elige una vista </p>
         <p align="center">
-            <a href="#" class="btn btn-default btn-lg">
+            <a href="file:///home/clark/Desktop/sd/HeaderSinDudas.html#content" class="btn btn-default btn-lg">
                 <span class="glyphicon glyphicon-map-marker"></span> &nbsp;&nbsp;&nbsp;MAPA
             </a>
             <span><a></a>&nbsp;&nbsp;</span>
-            <a href="#" class="btn btn-default btn-lg disabled1">
+            <a href="file:///home/clark/Desktop/sd/Lista.html#content" class="btn btn-default btn-lg disabled1">
                 <span class="glyphicon glyphicon-list"></span> &nbsp;&nbsp;&nbsp;LISTA
             </a>
         </p>
         <div class="container">
-        <p>FILTRA LAS CLINICAS POR</p>
-            <div class="row"id="filtros">
+            <p>FILTRA LAS CLINICAS POR</p>
+            <div class="row" id="filtros">
                 <div class="col-md-3">1. Cerca de tí
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
@@ -120,9 +119,104 @@
                     </div>
                 </div>
                 <div class="col-md-3">5. Costo
-      <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="1" data-slider-value="500"/>
+                    <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="2000" data-slider-step="1" data-slider-value="500" /><br><a style="font-size:10px;line-height:70%;">Gratis</a><a style="font-size:10px;line-height:70%;position: absolute;
+    right: 10px;">$2,000</a>
                 </div>
             </div>
+        <div id="clinicas">
+          <ul class="list-group" id="lista-clinicas">
+              <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+              <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+               <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+               <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+               <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+               <li class="list-group-item">
+                  <a class="clinic-name">Clinica Condesa</a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                  <a class="see-map">Ver en el mapa</a>
+                  <hr style="margin-top:4px;margin-bottom:10px;">
+                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
+                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
+              </li>
+          </ul>        
+        </div>
         </div>
 
     </div>
@@ -148,15 +242,15 @@
             </p>
         </div>
     </footer>
-    
+
     <script>
-// With JQuery
-$('#ex1').slider({
-	formatter: function(value) {
-		return 'Current value: ' + value;
-	}
-});
-   </script>
+        // With JQuery
+        $('#ex1').slider({
+            formatter: function(value) {
+                return '$' + value;
+            }
+        });
+    </script>
 
 </body>
 
