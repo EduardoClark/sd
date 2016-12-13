@@ -1,49 +1,69 @@
 <html>
+
 <head>
-  <title>Sin Dudas</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
-  <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
-  <link rel="shortcut icon" href="/assets/1.ico" /></head>
-  <script src="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
+    <title>Sin Dudas</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jquery.modal.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/jquery.modal.min.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+    <link href='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.css' rel='stylesheet' />
+    <link rel="shortcut icon" href="/assets/1.ico" />
+    <script src="  https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/bootstrap-slider.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.5.3/css/bootstrap-slider.min.css">
+
+</head>
+
 <body>
 
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">      
-      <ul class="nav navbar-nav">
-        <li><a href="#"><img alt="Brand" src="assets/1.png" style="height:3%"></a></li>        
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Pruebas</a></li>
-        <li><a href="#">Información</a></li>        
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><img alt="Brand" src="assets/1.png" style="height:3%">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Pruebas</a>
+                    </li>
+                    <li><a href="#">Información</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div class="jumbotron" id="intro">
-  <div class="container" style="position:absolute; width:100%; height:110%:display:table-cell; vertical-align:middle; text-align:center" > 
-      <img src="assets/logogrande.png" alt="some_text">      
-  </div> 
-  <p align="center"><br><br><br>Quitate la duda ya y hazte la prueba de VIH. <br> <a style="color:#FFCC33;"><b>56%</b></a> <b>de las personas que tienen VIH no lo saben.</b></p>
-  <p align="center"><br><br><a style="color:#5047C5;">BUSCA PRUEBAS EN <b>235</b> CLINICAS</a> </p>
-   
-</div>
+    <div class="jumbotron" id="intro">
+        <div class="container" style="position:absolute; width:100%; height:110%:display:table-cell; vertical-align:middle; text-align:center">
+            <img src="assets/logogrande.png" alt="some_text">
+        </div>
+        <p align="center">
+            <br>
+            <br>
+            <br>Quitate la duda ya y hazte la prueba de VIH.
+            <br> <a style="color:#FFCC33;"><b>56%</b></a> <b>de las personas que tienen VIH no lo saben.</b>
+        </p>
+        <p align="center">
+            <br>
+            <br><a style="color:#5047C5;">BUSCA PRUEBAS EN <b>235</b> CLINICAS</a> </p>
+
+    </div>
 
 
-<div class="jumbotron" id="content">
+    <div class="jumbotron" id="content">
 
-<p align="center"> Elige una vista </p>
- <p align="center">
+        <p align="center"> Elige una vista </p>
+        <p align="center">
             <a id="button-mapa" class="btn btn-default btn-lg disabled1">
                 <span class="glyphicon glyphicon-map-marker"></span> &nbsp;&nbsp;&nbsp;MAPA
             </a>
@@ -52,13 +72,13 @@
                 <span class="glyphicon glyphicon-list"></span> &nbsp;&nbsp;&nbsp;LISTA
             </a>
         </p>
-    <div id="seccion-mapa">
-<p style="margin-left:60px">BUSCA EN EL MAPA</p>
-<div id='map-three' class='map'></div>
-</div>
+        <div id="seccion-mapa">
+            <p style="margin-left:60px">BUSCA EN EL MAPA</p>
+            <div id='map-three' class='map'></div>
+        </div>
 
-    
-<div id="seccion-lista" class="container" style="display:none">
+
+        <div id="seccion-lista" class="container" style="display:none">
             <p>FILTRA LAS CLINICAS POR</p>
             <div class="row" id="filtros">
                 <div class="col-md-3">1. Cerca de tí
@@ -109,7 +129,7 @@
                         </ul>
                     </div>
                 </div>
-                 <div class="col-md-3">5. Costo
+                <div class="col-md-3">5. Costo
                     <div class="dropdown">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                             Todas las delegaciones
@@ -122,157 +142,439 @@
                     </div>
                 </div>
             </div>
-        <div id="clinicas">
-          <ul class="list-group" id="lista-clinicas">
-              <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-              <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-               <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-               <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-               <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-               <li class="list-group-item">
-                  <a class="clinic-name">Clinica Condesa</a>
-                  &nbsp;&nbsp;&nbsp;
-                  <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
-                  <a class="see-map">Ver en el mapa</a>
-                  <hr style="margin-top:4px;margin-bottom:10px;">
-                  <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b></a>
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b></a>
-                  <a class="button-moreinfo"><button type="button" class="btn btn-primary btn-info">Más información</button></a>
-              </li>
-          </ul>        
-        </div>
-        </div>
+            <div id="clinicas">
+                <ul class="list-group" id="lista-clinicas">
+                    <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
 
+                               
+                            
+                                                       
+                        </div>
+                    </li>
+                      <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
+
+                               
+                            
+                                                       
+                        </div>
+                    </li>  <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
+
+                               
+                            
+                                                       
+                        </div>
+                    </li>  <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
+
+                               
+                            
+                                                       
+                        </div>
+                    </li>  <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
+
+                               
+                            
+                                                       
+                        </div>
+                    </li>  <li class="list-group-item">
+                        <a class="clinic-name">Clinica Condesa</a> &nbsp;&nbsp;&nbsp;
+                        <a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
+                        <hr style="margin-top:4px;margin-bottom:10px;">
+                        <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                        <a class="button-moreinfo">
+                            <button type="button" class="btn btn-primary btn-info">Más información</button>
+                        </a>
+                        <div id="ex1" style="display:none;" class="modal">
+                            <a class="clinic-name">Clinica Condesa</a><br><br>                            
+                                <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
+                                <br><a class="clinic-adress">General Benjamin Hill 24, Cuauhtemoc, Hipodromo Condesa, Ciudad de México</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
+                                <br><a class="clinic-phone">+52 55 4130 2538 <br> +52 55 96314785 ext 7327</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
+                                <br><a class="clinic-hours">Lunes a viernes 8 am - 7 pm <br> Sabados 10 am - 4 pm</a>
+                                </div>  
+                                <br><br>
+                            <br><br>
+<hr>
+                            <a class="insurance">Afiliación&nbsp;&nbsp;<b>Seguro Popular</b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Prueba rápida</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Consejería</b>
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>Costo</b>
+                        </a>
+                               
+                            <br>
+                            <hr>
+                            <div class="col-md-4 clinic-adress">Tiempo para resultados
+                                <br><br><a class="result-time">8 horas</a>
+                                </div>       
+                                <div class="col-md-4 clinic-phone">Preparación para la prueba
+                                <br><br><a class="test-preparation">12 horas de ayuno</a>
+                                </div> 
+                                <div class="col-md-4 clinic-hours">Información adicional
+                                <br><br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
+                                </div>  
+                 <br><br><br><br>
+                                        <div id='map-two' class='map2'></div>
+
+                               
+                            
+                                                       
+                        </div>
+                    </li>
+                    
+                    
+                   
+                   
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <a href="#"><img alt="Brand" src="assets/2.png" style="height:3%">
+                </a>
+            </p>
+            <p>
+                <a href="#">Pruebas | Información</a>
+            </p>
+            <p>
+                <a href="#"><img alt="Brand" src="assets/fb.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Brand" src="assets/twitter.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Brand" src="assets/github.png" style="height:3%">
+                </a>
+            </p>
+            <p>
+                <a href="#">Aviso de privacidad</a>
+            </p>
+        </div>
+    </footer>
+
+
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
+        var map = L.mapbox.map('map-three', 'mapbox.light', {
+            scrollWheelZoom: false,
+            maxZoom: 18,
+            minZoom: 12
+        }).setView([19.420863, -99.172134], 14);
+        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('assets/markers.geojson')
+            .addTo(map);
+    </script>
     
-</div>  
+     <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
+        var map = L.mapbox.map('map-two', 'mapbox.light', {
+            scrollWheelZoom: false,
+            maxZoom: 18,
+            minZoom: 12
+        }).setView([19.420863, -99.172134], 14);
+        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('assets/markers.geojson')
+            .addTo(map);
+    </script>
 
+    <script>
+        $(".btn").click(function() {
+            $(".btn").removeClass("disabled1");
+            if ($(this).hasClass("disabled1"))
+                $(".btn").removeClass("disabled1").addClass("disabled1");;
+            $(this).addClass("disabled1");
+        });;
+    </script>
 
-
-<footer class="footer">
-      <div class="container">
-        <p>
-          <a href="#"><img alt="Brand" src="assets/2.png" style="height:3%"></a>
-	</p>
-        <p>
-          <a href="#">Pruebas | Información</a>
-	</p>
- 	<p>
-          <a href="#"><img alt="Brand" src="assets/fb.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Brand" src="assets/twitter.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Brand" src="assets/github.png" style="height:3%"></a>
-	</p>
-	<p>
-          <a href="#">Aviso de privacidad</a>
-	</p>
-      </div>
-</footer>
-
-
-<script>
-L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
-var map = L.mapbox.map('map-three', 'mapbox.light', {
-  scrollWheelZoom: false,
-  maxZoom: 18,
-  minZoom: 12
-}).setView([19.420863, -99.172134], 14);
-L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
-var featureLayer = L.mapbox.featureLayer()
-    .loadURL('assets/markers.geojson')
-    .addTo(map);
-
-</script>
-   
-<script>
-$(".btn").click(function () {
-    $(".btn").removeClass("disabled1");   
-     if($(this).hasClass("disabled1"))
-          $(".btn").removeClass("disabled1").addClass("disabled1");;                 
-     $(this).addClass("disabled1");
-});;
-</script>    
-
-<script>
-jQuery(document).ready(function(){
-        jQuery('.btn').on('click', function(event) {        
-             jQuery('#seccion-lista').toggle('show');
-             jQuery('#seccion-mapa').toggle('show');
+    <script>
+        jQuery(document).ready(function() {
+            jQuery('.btn').on('click', function(event) {
+                jQuery('#seccion-lista').toggle('show');
+                jQuery('#seccion-mapa').toggle('show');
+            });
         });
-    });
-</script>
+    </script>
 
 
 </body>
+
 </html>
