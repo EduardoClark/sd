@@ -45,17 +45,17 @@
     </script>
 
     <script>
-        $(".btn").click(function() {
-            $(".btn").removeClass("disabled1");
+        $(".view-selector").click(function() {
+            $(".view-selector").removeClass("disabled1");
             if ($(this).hasClass("disabled1"))
-                $(".btn").removeClass("disabled1").addClass("disabled1");;
+                $(".view-selector").removeClass("disabled1").addClass("disabled1");;
             $(this).addClass("disabled1");
         });;
     </script>
 
     <script>
         jQuery(document).ready(function() {
-            jQuery('.btn').on('click', function(event) {
+            jQuery('.view-selector').on('click', function(event) {
                 jQuery('#seccion-lista').toggle('show');
                 jQuery('#seccion-mapa').toggle('show');
             });
