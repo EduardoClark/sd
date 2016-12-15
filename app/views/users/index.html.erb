@@ -15,7 +15,19 @@
   
     </div>
 
-
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
+        var map = L.mapbox.map('map-two', 'mapbox.light', {
+            scrollWheelZoom: false,
+            maxZoom: 18,
+            minZoom: 12
+        }).setView([19.420863, -99.172134], 14);
+        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('markers.geojson')
+            .addTo(map);
+        map.scrollWheelZoom.enable();
+    </script>
 
 
     <script>
@@ -27,22 +39,11 @@
         }).setView([19.420863, -99.172134], 14);
         L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
         var featureLayer = L.mapbox.featureLayer()
-            .loadURL('assets/markers.geojson')
+            .loadURL('markers.geojson')
             .addTo(map);
+        map.scrollWheelZoom.enable();
     </script>
 
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
-        var map = L.mapbox.map('map-two', 'mapbox.light', {
-            scrollWheelZoom: false,
-            maxZoom: 18,
-            minZoom: 12
-        }).setView([19.420863, -99.172134], 14);
-        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
-        var featureLayer = L.mapbox.featureLayer()
-            .loadURL('assets/markers.geojson')
-            .addTo(map);
-    </script>
 
     <script>
         $(".view-selector").click(function() {
@@ -58,7 +59,7 @@
             jQuery('.view-selector').on('click', function(event) {
                 jQuery('#seccion-lista').toggle('show');
                 jQuery('#seccion-mapa').toggle('show');
+                setTimeout(function(){ map.invalidateSize()}, 400);                         
             });
         });
     </script>
-

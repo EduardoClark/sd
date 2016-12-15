@@ -68,7 +68,7 @@
                             <br>
                             <br>
                             <br>
-                            <div id='map-two' class='map2'></div>
+                            <div id='map-two' class='map'></div>
 
 
 
@@ -78,6 +78,6 @@
       <% end %>
                     
                 </ul>
-<%= will_paginate :previous_label => 'Anterior', :next_label => 'Siguiente' %>
+<%= will_paginate :previous_label => 'Anterior', :next_label => 'Siguiente', :params => {:anchor => "content"} %>
             </div>
         </div>
