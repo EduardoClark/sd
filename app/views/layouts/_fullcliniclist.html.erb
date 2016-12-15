@@ -14,10 +14,10 @@
                         <a class="assistance"> <%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
                         </a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
+                        <a class="type"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
                         </a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.cost2 %></b>
+                        <a class="cost"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.cost2 %></b>
                         </a>
                         <a class="button-moreinfo">
                             <button type="button" class="btn btn-primary btn-info">Más información</button>
@@ -41,24 +41,24 @@
                             <br>
                             <hr>
                             <a class="insurance">Afiliación&nbsp;&nbsp;<b><%= user.its %></b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
+                            <a class="assistance"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
                             </a>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
+                            <a class="type"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
                             </a>
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="cost"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b>$<%= user.cost %></b>
+                            <a class="cost"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b>$<%= user.cost %></b>
                             </a>
 
                             <br>
                             <hr>
                             <div class="col-md-4 clinic-adress">Tiempo para resultados
                                 <br>
-                                <br><a class="result-time"><%= user.cost %></a>
+                                <br><a class="result-time"><%= user.resulttime %></a>
                             </div>
                             <div class="col-md-4 clinic-phone">Preparación para la prueba
                                 <br>
-                                <br><a class="test-preparation">12 horas de ayuno</a>
+                                <br><a class="test-preparation"><%= user.prep %></a>
                             </div>
                             <div class="col-md-4 clinic-hours">Información adicional
                                 <br>
