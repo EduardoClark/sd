@@ -11,7 +11,7 @@
                         <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
                         <hr style="margin-top:4px;margin-bottom:10px;">
                         <a class="insurance">Afiliación&nbsp;&nbsp;<b><%= user.its %></b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="assistance"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
+                        <a class="assistance"> <%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
                         </a>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                         <a class="type"><img alt="Brand" src="assets/3.png" style="height:3%">&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
