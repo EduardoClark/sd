@@ -6,17 +6,9 @@
 
     <div class="jumbotron" id="content">
 
-        <%= render 'layouts/maplistselector' %>
-
-        <%= render 'layouts/mainmap' %>
-
         <%= render 'layouts/fullcliniclist' %>
-
   
     </div>
-
-
-
 
     <script>
         L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
@@ -43,22 +35,5 @@
             .loadURL('assets/markers.geojson')
             .addTo(map);
     </script>
-
-    <script>
-        $(".btn").click(function() {
-            $(".btn").removeClass("disabled1");
-            if ($(this).hasClass("disabled1"))
-                $(".btn").removeClass("disabled1").addClass("disabled1");;
-            $(this).addClass("disabled1");
-        });;
-    </script>
-
-    <script>
-        jQuery(document).ready(function() {
-            jQuery('.btn').on('click', function(event) {
-                jQuery('#seccion-lista').toggle('show');
-                jQuery('#seccion-mapa').toggle('show');
-            });
-        });
-    </script>
+  
 
