@@ -5,7 +5,7 @@
             <div id="clinicas">
                 <ul class="list-group" id="lista-clinicas">
                      <% @users.each do |user| %>
-<li class="list-group-item">
+        <li class="list-group-item">
                         <a class="clinic-name"> <%= user.nameshort %></a> &nbsp;&nbsp;&nbsp;
     <a class="clinic-adress"><%= user.address2 %></a></a>
                         <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
@@ -68,9 +68,6 @@
                             <br>
                             <br>
                             <br>
-                            <div id='map-two' class='map'></div>
-
-
 
 
                         </div>
@@ -78,6 +75,6 @@
       <% end %>
                     
                 </ul>
-<%= will_paginate :previous_label => 'Anterior', :next_label => 'Siguiente', :params => {:anchor => "content"} %>
+<%= will_paginate :previous_label => '<', :next_label => '>', :inner_window => 1, :outer_window   => 1, :params => {:anchor => "content"} %>
             </div>
         </div>

@@ -7,4 +7,8 @@ class StaticPagesController < ApplicationController
 
   def informacion
   end
+    
+  def encuesta
+  end
+    
 end

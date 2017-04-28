@@ -1,18 +1,79 @@
     <footer class="footer">
         <div class="container">
-            <p>
-                <%= link_to image_tag("2.png", alt: "sd", style:"height:35px"), root_path, id: "logo2" %>
+            <div class="row">                
+            <div class="col-sm-2" >
+            <br><br>
+                <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github" %></span>
+            <br><br>
+            <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github2" %></span>
+            <br><br>
+            </div>
                 
-            </p>
-            <p>
-                <a><%= link_to "Pruebas",   pruebas_path %> | <%= link_to "Información",   informacion_path %></a>
-            </p>
-            <p>
-                <a><%= link_to image_tag("fb.png", alt: "sd", style:"height:35px"), '#', id: "logofb" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("twitter.png", alt: "sd", style:"height:35px"), '#', id: "logotw" %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<%= link_to image_tag("github.png", alt: "sd", style:"height:35px"), 'https://github.com/EduardoClark/sd', id: "logogh" %>
-                </a>
-            </p>
-            <p>
-                <a href="#">Aviso de privacidad</a>
-            </p>
+            <div class="col-sm-5" >
+            <br><br>
+                <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github" %></span>
+            <br><br>
+            <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github2" %></span>
+            <br><br>
+            </div> 
+                
+            <div class="col-sm-3 footer-text">
+            <br><br>
+            <a><b>Siguenos en</b></a>                
+            </div>
+                
+            <div class="col-sm-2 footer-text">
+            <br><br>
+            <a><b>Contacto</b></a>
+            <br> <br>
+            <a>Te escuchamos en contacto@sindudas.mx</a> 
+            <br> <br>
+            <a><b>Acerca</b></a>
+            <br><br>
+            <a>¿Qué es sindudas.mx?</a>   
+            </div>              
+                
+            </div>  
+            <br> <br><br> <br>
         </div>
+        <div class="subfooter">
+            <div class="container">
+                <a style="line-height: 350%;"> <%= link_to image_tag("logogrande.png", alt: "sd", style:"height:25px;color:#000000" ), root_path, id: "logo-footer" %></a>
+            </div>
+            
+        </div>
+
+
     </footer>
+
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
+        var map = L.mapbox.map('map-two', 'mapbox.light', {
+            scrollWheelZoom: false,
+            maxZoom: 18,
+            minZoom: 12
+        }).setView([19.420863, -99.172134], 14);
+        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('markers.geojson')
+            .addTo(map);
+        map.scrollWheelZoom.enable();
+    </script>
+
+
+    <script>
+        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
+        var map = L.mapbox.map('map-three', 'mapbox.light', {
+            scrollWheelZoom: false,
+            maxZoom: 18,
+            minZoom: 12
+        }).setView([19.420863, -99.172134], 14);
+        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
+        var featureLayer = L.mapbox.featureLayer()
+            .loadURL('markers.geojson')
+            .addTo(map);
+        map.scrollWheelZoom.enable();
+    </script>
+
+
+   
