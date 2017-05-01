@@ -11,4 +11,7 @@ class StaticPagesController < ApplicationController
   def encuesta
   end
     
+  def esentrehombres
+  end
+    
 end
