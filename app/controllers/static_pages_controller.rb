@@ -9,9 +9,8 @@ class StaticPagesController < ApplicationController
   end
     
   def encuesta
+      render layout: "encuesta"
   end
     
-  def esentrehombres
-  end
-    
+
 end
