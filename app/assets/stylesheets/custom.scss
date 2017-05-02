@@ -26,7 +26,8 @@ a {
 }
 
 #logo {
-    height:3%
+    height:3%;
+    margin-left:-20px;
 }
 
 /* intro */
@@ -52,10 +53,10 @@ font-size:30px;
 
 
 #button-pruebas {
-background-color:#55ace7;
-border-color:#55ace7;
+background-color:#EB556A;;
+border-color:#EB556A;;
 color:white;
-box-shadow: 2px 2px #d9d9d9;
+box-shadow: 2px 2px #EB556A;
 }
 
 
@@ -354,4 +355,8 @@ color: #EB556A  !important;
 .sg-survey-form{
 width: 100% !important; 
 }
-    
+
+.sg-wrapper {
+margin-left: -20px;
+}
+
