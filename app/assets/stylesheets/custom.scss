@@ -122,18 +122,65 @@ font-size:20px;
 color:#B1B1B1;
 }
 
+#selector{
+      -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+
+/* grid-card */
+
+.thumbnail {
+   background-color:#FBFAF3;    
+   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    height: 400px !important;
+}
+
+h4{    
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 25px !important;
+    font-weight: bold;
+    color: #4A4A4A;
+}
+
+.adress{    
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 15px !important;    
+    color: #4A4A4A;
+}
+
+.telefono{    
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 15px !important;    
+    color: #4A4A4A;
+    display: inline-block;align-self: flex-end;
+    text-decoration: underline;
+}
+
+.horario{    
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 15px !important;    
+    color: #4A4A4A;
+    display: inline-block;align-self: flex-end;
+}
+
+.servicios{    
+    font-family: 'Roboto Condensed', sans-serif ;
+    font-size: 15px !important;    
+    color: #4A4A4A;    
+}
+
+.specs-1{    
+padding-right: 0px;
+}
+
+
 /* paginator */
 
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-background-color: #f8e71c;
-color:black;
-border-color: #ddd;
-    font-weight: bold;
-}
 
-.pagination > li > a, .pagination > li > span {
-color:#4a4a4a;
-}
 
 /* modal*/
 

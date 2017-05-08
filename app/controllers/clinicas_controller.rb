@@ -5,7 +5,8 @@ class ClinicasController < ApplicationController
   end
 
 def index
- @clinics = Clinic.paginate(page: params[:page], :per_page => 4)  
+ @clinics = Clinic.paginate(page: params[:page], :per_page => 8).order('tipoinstitucion')
+  
   end 
   
   end
