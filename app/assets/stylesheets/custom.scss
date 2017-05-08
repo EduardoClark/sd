@@ -9,23 +9,15 @@ body {
 }
 
 /* navbar */
-.navbar {
-    margin:0;
-}
-
-.navbar-nav > li{
-
-}
-
 .navbar-nav > li > a{
-  color: #939393 !important;
-  font-weight:bold;
-  font-size:15px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+  color: #9B9B9B !important;
+  font-size:25px;
 }
 
-#logo {
-    height:3%;
-    margin-left:-20px;
+.navbar{
+    margin: 0px;
+    background-color: #FBFAF3;
 }
 
 /* intro */
@@ -34,47 +26,69 @@ body {
 background-color: #f8e71c !important;
 margin:0px;
 }
+
 #intro > p {
 color:white;
 }
 
+#text0{
+font-family: 'Roboto Condensed', sans-serif !important;
+font-size:35px;
+}
 
-/* jumbotron content */
+/* jumbotron intro */
 #content {
 color:#4a4a4a;
 margin-bottom: 0px;
 }
 
-#text0{
-font-size:30px;
-}
-
-
 #button-pruebas {
-background-color:#EB556A;;
-border-color:#EB556A;;
+background-color:#469FFF ;
+border-color:grey;
 color:white;
-box-shadow: 2px 2px #EB556A;
+box-shadow: .5px .5px grey;
+padding: 20px 26px;
+font-family: 'Roboto Condensed', sans-serif !important;
+font-size: 25px;
+border-radius: 15px;
+-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
+#button-busca {
+background-color:#469FFF ;
+border-color:grey;
+color:white;
+font-family: 'Roboto Condensed', sans-serif !important;
+font-size: 15px;
+border-radius: 10px;
+-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
 
-/* content */
+/* filter bar */
 #selector > .btn-group > .btn-primary {
-margin-top: -100px;
+margin-top: -48px;
 background-color:white;
 border-color:#d9d9d9;
-height: 150px;
-color:#4a4a4a;
+height: 100px;
+color:#4A4A4A;
+font-family: 'Roboto Condensed', sans-serif !important;
+background-color: #FBFAF3;
+font-size:25px;
+text-align: left;
 }
 
 #button-start > .btn-primary {
-border-bottom-left-radius: 30px;
-border-top-left-radius: 30px;
+border-bottom-left-radius: 0px;
+border-top-left-radius: 0px;
 }
 
 #button-end > .btn-primary {
-border-bottom-right-radius: 30px;
-border-top-right-radius: 30px;
+border-bottom-right-radius: 0px;
+border-top-right-radius: 0px;
 border-left-color: white !important;
 }
 
@@ -82,123 +96,30 @@ border-left-color: white !important;
 border-right-color: white !important;
 }
 
-.map { 
-width:100%; height:600px; 
-margin-bottom: -50px;
+
+#selector > div:nth-child(2){
+ width: .50%;    
 }
 
-
-.col-md-3 {
-width: 20%;
-color:black;
-font-size: 20px;
+#selector > div:nth-child(3){
+ width: 1.2%;    
 }
 
-#filtros {
-line-height: 300%
+#selector > div:nth-child(4){
+ width: 1%;    
 }
 
-div.slider-handle{
-    background: white;
+#selector > div:nth-child(5){
+ width: .5%;    
 }
 
-#ex1 slider-selection{	
-    color: #5047C5;
+#selector > div:nth-child(6){
+ width: .85%;    
 }
 
-.tooltip-inner {
-	background-color: transparent;
-    color:#5047C5;
-    font-weight: bold;
-}
-
-.tooltip.top .tooltip-arrow {
-	border-top-color: transparent;
-}
-
-#lista-clinicas {
-margin-top: 30px;
-}
-
-.list-group-item{
-margin: 0 0 15px 0;
-padding-bottom: 15px;
-}
-
-.clinic-name {
-font-weight: bold;
-color: #5047C5;
+.sub-buscador{
 font-size:20px;
-}
-
-.clinic-adress {
-color: #939393;
-font-size:15px;
-}
-
-.clinic-phone {
-color: #939393;
-font-size:15px;
-}
-
-.clinic-hours{
-color: #939393;
-font-size:15px;
-}
-
-.see-map {
-color: #5047C5;
-font-size:15px;
-position: absolute;
-right: 10px;
-}
-
-.insurance {
-color: #696969;
-font-size:15px;
-}
-
-.assistance {
-color: #696969;
-font-size:15px;
-}
-
-.type {
-color: #696969;
-font-size:15px;
-}
-
-.cost {
-color: #696969;
-font-size:15px;
-}
-
-.button-moreinfo{
-position: absolute;
-right: 10px;
-vertical-align:middle;
-}
-
-.btn-info{
-background-color:#5047C5;
-}
-
-.result-time {
-font-weight: bold;
-color: #5047C5;
-font-size:20px;
-}
-
-.test-preparation {
-font-weight: bold;
-color: #5047C5;
-font-size:20px;
-}
-
-.aditional-info {
-color: #545454;
-font-size:15px;
-line-height: 100%;
+color:#B1B1B1;
 }
 
 /* paginator */
@@ -239,8 +160,6 @@ modal.hr {
 	top: 5px;
 	right: 5px;
 }
-
-
 
 
 /* footer*/
@@ -360,4 +279,37 @@ margin-left: -20px;
 
 .sg-footer {
 background: white !important;
+}
+
+
+/* list grid*/
+
+.thumbnail{   
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+.bottom_aligner {
+    display: inline-block;
+    height: 100%;
+    vertical-align: bottom;
+    width: 0px;
+}
+
+.circle
+    {
+    width:5px;
+    height:5px;
+    border-radius:5px;
+    font-size:5px;
+    color:#fff;
+    line-height:5px;
+    text-align:center;
+    background:green
+    }
+
+.item {
+  min-height:6em; // this is it
 }
