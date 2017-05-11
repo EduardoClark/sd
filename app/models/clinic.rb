@@ -1,3 +1,3 @@
-class Clinic < ApplicationRecord
-    
+class Clinic < ApplicationRecord    
+        
 end

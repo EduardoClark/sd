@@ -1,0 +1,132 @@
+<div id="products" class="row list-group" >        
+        <% @clinics.each_with_index do |clinic, index| %>
+        <div class="item  col-xs-3 col-lg-3">            
+            <div class="thumbnail">                
+                <div class="caption">
+                    <div class="link-to-map">
+                        <a href="#ex1-<%= index %>" rel="modal:open" id="to-modal-<%= index %>">
+                            <span class="glyphicon glyphicon-arrow-right"></span>
+                        </a>
+                    </div>
+                    <h4 class="group inner list-group-item-heading"><%= clinic.institucion %></h4>
+                    <p class="adress"><%= clinic.direccion %></p>
+                    <div class="row" style=" display: flex;height: 100%;">
+                    <div class="col-xs-6 telefono" style=" display: inline-block;align-self: flex-end;">55-1501-2064</div>
+                    <div class="col-xs-6 horario" style=" display: inline-block;align-self: flex-end;">
+                    <strong>L-V </strong> 7:00 a 19:00<br>
+                    <strong>S </strong> 7:00 a 15:00<br>
+                    <strong>D </strong> 7:00 a 15:00
+                        
+                    </div>                        
+                    </div>
+                    <hr>
+                   
+                    <div class="row servicios">
+                         <div class="col-xs-6 specs-1">                 
+                         <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Prueba Rapida</span></span><br>
+                         <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Gratuita</span></span><br>
+                          <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Servicio Público</span></span>                         
+                         
+                         </div>
+                         <div class="col-xs-6 specs-1">
+                     <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;"> Prueba de ITS</span></span><br>
+                        <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Consejería</span></span>
+                         
+                     
+                                       
+                         </div>
+                        
+                                        
+                    </div>
+                               
+              </div>                  
+            </div>
+        </div>  
+        
+        <div id="ex1-<%= index %>" class="map-modal" style="display:none;">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div id="mapid-<%= index %>" class="mapas-modal">                                                 
+                                </div>
+                            </div>
+                               
+                            <div class="col-sm-5 modal-content-columns">
+                                 <h4 class="name-clinic-modal"><%= clinic.institucion %></h4>
+                                 <div class="row">
+                                 <div class="col-sm-6">
+                                     <p class="modal-interior-title">Telefono<br>
+                                     <a class="modal-interior-content"><%= clinic.telefono %>
+                                     </a></p>
+                                     <p class="modal-interior-title">Dirección<br>
+                                         <a class="modal-interior-content"><%= clinic.direccion %>
+                                     </a></p>
+                                     <p class="modal-interior-title">Horarios<br>
+                                         <a class="modal-interior-content">Lunes:    9:00 a 17:00</a><br>
+                                     <a class="modal-interior-content">Martes:    9:00 a 17:00</a><br>
+                                     <a class="modal-interior-content">Miercoles:    9:00 a 17:00</a><br>
+                                         <a class="modal-interior-content">Jueves:    9:00 a 17:00</a><br>
+                                         <a class="modal-interior-content">Viernes:    9:00 a 17:00</a><br>
+                                         <a class="modal-interior-content">Sabado:    9:00 a 15:00</a><br>
+                                         <a class="modal-interior-content">Domingo:    9:00 a 15:00</a>                                     
+                                     </p>
+                                     <p class="modal-interior-title">Web<br>
+                                         <a class="modal-interior-content">www.sindudas.mx
+                                     </a></p>                                      
+                                      <p class="modal-interior-title">Otros<br>
+                                     <a class="modal-interior-content">www.sindudas.mx
+                                     </a></p> 
+                                 </div>
+                                 <div class="col-sm-6 modal-interno-derecha">
+                                     <p class="modal-interior-title">Servicio<br>
+                                     <a class="modal-interior-content"><%= clinic.tipoinstitucion %>
+                                     </a></p>
+                                      <p class="modal-interior-title">Costo<br>
+                                     <a class="modal-interior-content"><%= clinic.costo %>
+                                     </a></p>
+                                         <p class="modal-interior-title">Prueba VIH<br>
+                                             <a class="modal-interior-content"><%= clinic.tipo %>
+                                     </a></p> 
+                                         <p class="modal-interior-title">Consejeria<br>
+                                             <a class="modal-interior-content"><%= clinic.consejeria %>
+                                     </a></p> 
+                                           <p class="modal-interior-title">Antes necesitas<br>
+                                             <a class="modal-interior-content"><%= clinic.preparacion %>
+                                     </a></p> 
+                                        <p class="modal-interior-title">Pruebas de infecciones de transmición sexual<br>
+                                             <a class="modal-interior-content"><%= clinic.pits %>
+                                     </a></p> 
+                                       
+                                    
+                                 </div>
+                                 </div>
+                            </div>
+                          
+                        </div>
+            
+        </div>
+        
+
+  
+        
+        <script>             
+                var mymap = L.map('mapid-<%= index %>').setView([19.419444, -99.145556], 13);
+                    L.tileLayer('https://api.mapbox.com/styles/v1/eclarkgd/ciwfc2mce004b2plkmujdb3no/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg', {
+            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+            maxZoom: 18,
+            }).addTo(mymap); 
+            var marker = L.marker([19.419444, -99.145556]).addTo(mymap);       
+                   
+        </script>
+        
+       
+         <script>   
+                    $('#ex1-<%= index %>').on($.modal.OPEN, function () {
+              mymap.invalidateSize();
+        });    
+        </script>
+       
+
+
+        
+        <% end %>
+    </div>
