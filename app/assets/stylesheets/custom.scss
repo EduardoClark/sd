@@ -180,10 +180,27 @@ padding-right: 0px;
 
 /* paginator */
 
+#infinite-scrolling > div > ul > li > a{
+background-color: #FBFAF3;
+}
 
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+background-color: #f8e71c !important;
+color:black;
+border-color: #ddd;
+    font-weight: bold;
+}
+
+.pagination > li > a, .pagination > li > span {
+color:#4a4a4a;
+}
+
+#infinite-scrolling > div > ul > li > a{
+    margin-left: 20px;
+    
+}
 
 /* modal*/
-
 .blocker {
 	background-color: rgba(0,0,0,.2);
 }
@@ -330,11 +347,18 @@ background: white !important;
 
 
 /* list grid*/
-
 .thumbnail{   
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+    position: relative;
+}
+
+.link-to-map{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;  
+    font-size:20px;
 }
 
 
@@ -360,3 +384,70 @@ background: white !important;
 .item {
   min-height:6em; // this is it
 }
+
+/* modal-clinicas*/
+
+.modal{
+max-width: 1100px !important;
+}
+
+.map-modal{
+    height: 650px;
+    width: 1100px;    
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border-radius: 15px;
+-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.modal-interno-derecha{
+height: 550px;
+border-left: 2px solid #D8D8D8;   
+
+}
+
+.name-clinic-modal{
+font-size: 20px !important;
+color:  #4A4A4A;
+font-family: 'Roboto Condensed', sans-serif ;
+}
+
+
+.modal-interior-title{
+font-size: 15px !important;
+color:  #766F6F;
+font-family: 'Roboto Condensed', sans-serif ;
+font-weight: bolder;
+}
+
+.modal-interior-content{
+font-size: 15px !important;
+color:  #9B9B9B;
+font-family: 'Roboto Condensed', sans-serif ;
+}
+
+.modal-content-columns{
+line-height: 200%;
+}
+
+.close-modal{
+visibility: hidden !important;
+}
+
+.leaflet-top{
+padding-left: 30px;
+}
+
+
+
+/* modal-clininicas-map*/
+.mapas-modal{ 
+    height: 650px;
+     width: 650px;
+    padding-left: 0px;
+    margin-left: -50px;
+
+}
+
