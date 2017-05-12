@@ -12,7 +12,10 @@ class CreateClinics < ActiveRecord::Migration[5.0]
       t.string :pits
       t.string :horario
       t.string :direccion
-
+      t.string :telefonoi
+      t.string :costoi
+      t.string :tiempoi
+      t.string :consejeriai
       t.timestamps
     end
   end
