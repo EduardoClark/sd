@@ -1,58 +1,46 @@
-<div class="btn-group btn-group-justified" id="selector">
+<form action="/" method="post">
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    <div class="btn-group btn-group-justified" id="selector">
 
-     <div class="btn-group" id="button-start">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
-    ¿Qué necesitas? <br><a class="sub-buscador">tipo de prueba...</a> </button>
-      <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Tablet</a></li>
-      <li><a href="#">Smartphone</a></li>
-     </ul>
-     </div>
-    
-    
+    <div class="btn-group" id="button-start">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;height: 70px;">
+    ¿Qué necesitas? </button>
+    <%= select_tag(:clinic_type,
+   options_for_select(Clinic.select('tipo').all().distinct.map{ |f| [f.tipo, f.tipo]}), :prompt => "Select",:class=>"sub-buscador col-md-12") %>
+   </div>
+
+
   <div class="btn-group">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
-    Costo<br><a class="sub-buscador">gratuita...</a></button>
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Tablet</a></li>
-      <li><a href="#">Smartphone</a></li>
-    </ul>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;height: 70px; ">
+    Costo</button>
+    <%= select_tag(:cost,
+     options_for_select(Clinic.select('costo').all().distinct.map{ |f| [f.costo, f.costo]}), :prompt => "Select",:class=>"sub-buscador col-md-12") %>
   </div>
-    
+
       <div class="btn-group">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
-   Tiempo para resultados <br><a class="sub-buscador">un dia habíl...</a></button>
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Tablet</a></li>
-      <li><a href="#">Smartphone</a></li>
-    </ul>
-  </div>
-    
-    
-  <div class="btn-group">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
-    ¿Necesitas ayudas?<br><a class="sub-buscador">sí necesito....</a></button>
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Tablet</a></li>
-      <li><a href="#">Smartphone</a></li>
-    </ul>
-  </div>
-    
-    <div class="btn-group" id="button-endnext">
-    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
-    ¿Dónde?<br><a class="sub-buscador">delegación....</a></button>
-    <ul class="dropdown-menu" role="menu">
-      <li><a href="#">Tablet</a></li>
-      <li><a href="#">Smartphone</a></li>
-    </ul>
-  </div>
-    
-    <div class="btn-group" id="button-end">
-    <button type="button" class="btn btn-primary">
-    <a id="button-busca" class="view-selector btn btn-default btn-lg">
-            Busca una prueba
-            </a></button>
-    
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;height: 70px; ">
+   Tiempo para resultados </button>
+    <%= select_tag(:time,
+      options_for_select(Clinic.select('tiempo').all().distinct.map{ |f| [f.tiempo, f.tiempo]}), :prompt => "Select",:class=>"sub-buscador col-md-12") %>
   </div>
 
+
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;height: 70px; ">
+    ¿Necesitas ayudas? </button>
+    <%= select_tag(:help,
+     options_for_select(Clinic.select('consejeria').all().distinct.map{ |f| [f.consejeria, f.consejeria]}), :prompt => "Select",:class=>"sub-buscador col-md-12") %>
+  </div>
+
+    <div class="btn-group" id="button-endnext">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;height: 70px; ">
+    ¿Dónde?</button>
+    <%= select_tag(:direction,
+     options_for_select(Clinic.select('direccion').all().distinct.map{ |f| [f.direccion, f.direccion]}), :prompt => "Select",:class=>"sub-buscador col-md-12") %>
+  </div>
+
+    <div class="btn-group" id="button-end">
+      <%= submit_tag "Busca una prueba",name: "Search" ,class:"btn btn-primary btn btn-default btn-lg"  %>
+  </div>
+</form>
 </div>
