@@ -1,13 +1,13 @@
 <div class="container">
-    <br><br><br> 
+    <br><br><br>
     <%= render(
     partial: 'clinicas/clinicsshow',
-    locals: {clinicas: @clinicas }
+    locals: {clinicas: @clinics }
     ) %>
-    
+    <% if ! @clinics.blank? %>
     <div id="infinite-scrolling">
         <%= will_paginate @clinics, :previous_label => '<', :next_label => '>', :inner_window => 1, :outer_window => 0 %>
     </div>
-    
-   
+    <% end %>
+
 </div>
