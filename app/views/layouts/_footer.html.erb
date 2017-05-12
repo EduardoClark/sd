@@ -3,17 +3,17 @@
             <div class="row">                
             <div class="col-sm-2" >
             <br><br>
-                <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github" %></span>
+
             <br><br>
-            <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github2" %></span>
+           
             <br><br>
             </div>
                 
             <div class="col-sm-5" >
             <br><br>
-                <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github" %></span>
+               
             <br><br>
-            <span><%= link_to image_tag("logogrande.png", alt: "sd", style:"height:40px;color:#4a4a4a" ), root_path, id: "github2" %></span>
+            
             <br><br>
             </div> 
                 
@@ -38,42 +38,13 @@
         </div>
         <div class="subfooter">
             <div class="container">
-                <a style="line-height: 350%;"> <%= link_to image_tag("logogrande.png", alt: "sd", style:"height:25px;color:#000000" ), root_path, id: "logo-footer" %></a>
+                <a style="line-height: 350%;"> <%= link_to image_tag("logogrande.png", alt: "sd", style:"height:25px;color:#000000" ), root_path, id: "logo" %></a>
             </div>
             
         </div>
 
 
     </footer>
-
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
-        var map = L.mapbox.map('map-two', 'mapbox.light', {
-            scrollWheelZoom: false,
-            maxZoom: 18,
-            minZoom: 12
-        }).setView([19.420863, -99.172134], 14);
-        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
-        var featureLayer = L.mapbox.featureLayer()
-            .loadURL('markers.geojson')
-            .addTo(map);
-        map.scrollWheelZoom.enable();
-    </script>
-
-
-    <script>
-        L.mapbox.accessToken = 'pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg';
-        var map = L.mapbox.map('map-three', 'mapbox.light', {
-            scrollWheelZoom: false,
-            maxZoom: 18,
-            minZoom: 12
-        }).setView([19.420863, -99.172134], 14);
-        L.mapbox.styleLayer('mapbox://styles/eclarkgd/ciwfc3w4x00412pna5uxwfkrj').addTo(map);
-        var featureLayer = L.mapbox.featureLayer()
-            .loadURL('markers.geojson')
-            .addTo(map);
-        map.scrollWheelZoom.enable();
-    </script>
-
+  
 
    

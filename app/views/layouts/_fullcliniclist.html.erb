@@ -1,80 +1,12 @@
 
-      <div id="seccion-lista" class="container" >
-          <%= render 'layouts/clinicfilter' %>
+<div id="seccion-lista" class="container" >
+    
+    <%= render 'layouts/clinicfilter' %>
+          
 
-            <div id="clinicas">
-                <ul class="list-group" id="lista-clinicas">
-                     <% @users.each do |user| %>
-        <li class="list-group-item">
-                        <a class="clinic-name"> <%= user.nameshort %></a> &nbsp;&nbsp;&nbsp;
-    <a class="clinic-adress"><%= user.address2 %></a></a>
-                        <a class="see-map" href="#ex1" rel="modal:open">Ver en el mapa</a>
-                        <hr style="margin-top:4px;margin-bottom:10px;">
-                        <a class="insurance">Afiliación&nbsp;&nbsp;<b><%= user.its %></b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="assistance"> <%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
-                        </a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="type"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
-                        </a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="cost"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.cost2 %></b>
-                        </a>
-                        <a class="button-moreinfo">
-                            <button type="button" class="btn btn-primary btn-info">Más información</button>
-                        </a>
-                        <div id="ex1" style="display:none;" class="modal">
-                            <a class="clinic-name"><%= user.name %></a>
-                            <br>
-                            <br>
-                            <div class="col-md-4 clinic-adress"><b>DIRECCIÓN</b>
-                                <br><a class="clinic-adress"><%= user.address2 %></a>
-                            </div>
-                            <div class="col-md-4 clinic-phone"><b>TELÉFONOS</b>
-                                <br><a class="clinic-phone"><%= user.phone %></a>
-                            </div>
-                            <div class="col-md-4 clinic-hours"><b>HORARIOS</b>
-                                <br><a class="clinic-hours"><%= user.hours %></a>
-                            </div>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <hr>
-                            <a class="insurance">Afiliación&nbsp;&nbsp;<b><%= user.its %></b></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="assistance"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.testtype %></b>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="type"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b><%= user.assistance %></b>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a class="cost"><%= link_to image_tag("3.png", alt: "sd", style:"height:30px" ) %>&nbsp;&nbsp;&nbsp;&nbsp;<b>$<%= user.cost %></b>
-                            </a>
+    <div id="clinicas">   
+        <%= render 'layouts/clinicgrid' %>
 
-                            <br>
-                            <hr>
-                            <div class="col-md-4 clinic-adress">Tiempo para resultados
-                                <br>
-                                <br><a class="result-time"><%= user.resulttime %></a>
-                            </div>
-                            <div class="col-md-4 clinic-phone">Preparación para la prueba
-                                <br>
-                                <br><a class="test-preparation"><%= user.prep %></a>
-                            </div>
-                            <div class="col-md-4 clinic-hours">Información adicional
-                                <br>
-                                <br><a class="aditional-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam diam ipsum, cursus quis nibh nec, commodo consectetur tellus. Donec pellentesques diam enim</a>
-                            </div>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-
-
-                        </div>
-                    </li>
-      <% end %>
-                    
-                </ul>
-<%= will_paginate :previous_label => '<', :next_label => '>', :inner_window => 1, :outer_window   => 1, :params => {:anchor => "content"} %>
-            </div>
-        </div>
+    </div>
+          
+</div>
