@@ -15,6 +15,5 @@
 //= require turbolinks
 //= require leaflet
 //= require_tree .
-
-
-
+//= require bootstrap
+//= require bootstrap/dropdown
