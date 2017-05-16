@@ -3,7 +3,7 @@
   <h4>No hay clinicas con esas caracteristicas.</h4>
     <% else %>
         <% @clinics.each_with_index do |clinic, index| %>
-        <div class="item  col-xs-3 col-lg-3">
+        <div class="item  col-lg-3">
             <div class="thumbnail">
                 <div class="caption">
                     <div class="link-to-map">
@@ -57,7 +57,7 @@
                                  <h4 class="name-clinic-modal"><%= clinic.institucion %></h4>
                                  <div class="row">
                                  <div class="col-sm-6">
-                                     <p class="modal-interior-title">Telefono<br>
+                                     <p class="modal-interior-title">Teléfono<br>
                                      <a class="modal-interior-content"><%= clinic.telefono %>
                                      </a></p>
                                      <p class="modal-interior-title">Dirección<br>
@@ -71,13 +71,8 @@
                                          <a class="modal-interior-content">Viernes:    9:00 a 17:00</a><br>
                                          <a class="modal-interior-content">Sabado:    9:00 a 15:00</a><br>
                                          <a class="modal-interior-content">Domingo:    9:00 a 15:00</a>
-                                     </p>
-                                     <p class="modal-interior-title">Web<br>
-                                         <a class="modal-interior-content">www.sindudas.mx
-                                     </a></p>
-                                      <p class="modal-interior-title">Otros<br>
-                                     <a class="modal-interior-content">www.sindudas.mx
-                                     </a></p>
+                                     </p>                                    
+                                    
                                  </div>
                                  <div class="col-sm-6 modal-interno-derecha">
                                      <p class="modal-interior-title">Servicio<br>
@@ -95,7 +90,7 @@
                                            <p class="modal-interior-title">Antes necesitas<br>
                                              <a class="modal-interior-content"><%= clinic.preparacion %>
                                      </a></p>
-                                        <p class="modal-interior-title">Pruebas de infecciones de transmición sexual<br>
+                                        <p class="modal-interior-title">Pruebas de infecciones de transmisión sexual<br>
                                              <a class="modal-interior-content"><%= clinic.pits %>
                                      </a></p>
 
