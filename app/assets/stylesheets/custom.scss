@@ -105,6 +105,31 @@ border-right-color: white !important;
     height: 100px !important;
   }
   
+	@media (max-width: 991px) {
+		.map-modal{
+    height: 400px !important;
+			width: 300px !important; 
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    border-radius: 15px;
+-webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+-moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+}
+	
+	
+		@media (max-width: 991px) {
+		.mapas-modal{
+    height: 500px !important;
+			width: 400px !important; 
+  
+}
+
+}
+	
+	
   /* making the border-radius correct */
   .btn-group.my-btn-group-responsive > .btn-groupn:first-child {
     border-radius: 6px 6px 0 0;
@@ -278,6 +303,7 @@ text-decoration: none !important;
 font-weight:bold !important;
 	font-style: normal !important;
 } 
+
 
 
 
