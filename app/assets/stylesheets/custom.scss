@@ -147,8 +147,27 @@ padding-top: 5px;
     padding-bottom: 5px;
     white-space: normal;
 }
- 
 
+#selector > div.btn-group.open > ul > li {
+    margin-left: 5px;
+    font-family: 'Roboto Condensed', sans-serif ;
+}
+
+#selector > div.btn-group.open > button{
+ background-color: #469FFF;
+    color:white;
+}
+
+.dropdown-menu{
+    margin:-1px 0px 0px 0px !important;
+    border-radius: 0px;
+  
+    box-shadow: 0x 0px 30px 0px #469FFF;
+}
+
+#selector > div.btn-group.open > ul > li > label{
+font-weight: lighter;
+}
 
 
 /* grid-card */

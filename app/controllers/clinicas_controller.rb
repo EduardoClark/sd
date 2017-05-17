@@ -19,7 +19,7 @@ class ClinicasController < ApplicationController
       @clinics =  @clinics.where(:consejeriai => params[:help].keys)
     end
     if params[:direction].present?
-      @clinics =  @clinics.where(:direccion => params[:direction].keys)
+      @clinics =  @clinics.where(:delegacion => params[:direction].keys)
     end
 
     @clinics = @clinics.paginate(page: params[:page], :per_page => 8).order('tipoinstitucion')

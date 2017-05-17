@@ -78,14 +78,14 @@
           Delegación </button>
     <ul class="dropdown-menu" role="menu">
         <% if ! @direction.blank? %>
-          <% Clinic.select('direccion').all().distinct.each do |f| %>
-          <li><%= check_box_tag "direction[#{f.direccion}]", "#{f.direccion}", @direction.key?("#{f.direccion}")%>
-          <label><%= f.direccion %></label> </li>
+          <% Clinic.select('delegacion').all().distinct.each do |f| %>
+          <li><%= check_box_tag "delegacion[#{f.delegacion}]", "#{f.delegacion}", @direction.key?("#{f.delegacion}")%>
+          <label><%= f.delegacion %></label> </li>
           <% end %>
         <%else%>
-          <% Clinic.select('direccion').all().distinct.each do |f| %>
-          <li><%= check_box_tag "direction[#{f.direccion}]", "#{f.direccion}"%>
-          <label><%= f.direccion %></label> </li>
+          <% Clinic.select('delegacion').all().distinct.each do |f| %>
+          <li><%= check_box_tag "direction[#{f.delegacion}]", "#{f.delegacion}"%>
+          <label><%= f.delegacion %></label> </li>
           <%end%>
         <%end%>
       </ul>
