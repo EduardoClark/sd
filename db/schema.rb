@@ -21,12 +21,15 @@ ActiveRecord::Schema.define(version: 20170517005854) do
     t.string   "preparacion"
     t.string   "pits"
     t.string   "direccion"
+    t.datetime "created_at",                 null: false
+    t.datetime "updated_at",                 null: false
     t.string   "telefonoi"
+    t.string   "add_costoi_to_clinics"
     t.string   "costoi"
+    t.string   "add_tiempoi_to_clinics"
     t.string   "tiempoi"
+    t.string   "add_consejeriai_to_clinics"
     t.string   "consejeriai"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
     t.string   "notastelefono"
     t.string   "tipoprueba"
     t.string   "tiemporesultados"
