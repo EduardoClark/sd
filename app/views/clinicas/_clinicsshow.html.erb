@@ -2,6 +2,9 @@
     <% if @clinics.blank? %>
   <h4>No hay clinicas con esas caracteristicas.</h4>
     <% else %>
+    <script>
+        var all_maps = [];
+    </script>
         <% @clinics.each_with_index do |clinic, index| %>
         <div class="item  col-lg-3">
             <div class="thumbnail">
@@ -113,20 +116,15 @@
 
         </div>
         <script>
-                var mymap = L.map('mapid-<%= index %>').setView([19.419444, -99.145556], 13);
+                    all_maps.push(L.map('mapid-<%= index %>').setView([19.419444, -99.145556], 13));
+                    var mymap = all_maps[<%= index %>];
                     L.tileLayer('https://api.mapbox.com/styles/v1/eclarkgd/ciwfc2mce004b2plkmujdb3no/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg', {
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-            maxZoom: 18,
-            }).addTo(mymap);
-            var marker = L.marker([19.419444, -99.145556]).addTo(mymap);
-
-        </script>
-
-
-         <script>
-                    $('#ex1-<%= index %>').on($.modal.OPEN, function () {
-              mymap.invalidateSize();
-        });
+                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                    maxZoom: 18, maxZoom: 18, }).addTo(mymap);
+                    var marker = L.marker([19.419444, -99.145556]).addTo(mymap);       
+                    $('#ex1-<%=index%>').on($.modal.OPEN, function () {
+    		           all_maps[<%=index%>].invalidateSize();
+                    });
         </script>
 
 
