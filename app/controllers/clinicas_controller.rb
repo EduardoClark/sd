@@ -7,7 +7,7 @@ class ClinicasController < ApplicationController
   def index
     @clinics =  Clinic.all
     if params[:clinic_type].present?
-      @clinics =  @clinics.where(:tipoi => params[:clinic_type].keys)
+      @clinics =  @clinics.where(:tipo2 => params[:clinic_type].keys)
     end
     if params[:cost].present?
       @clinics =  @clinics.where(:costoi => params[:cost].keys)
@@ -22,7 +22,7 @@ class ClinicasController < ApplicationController
       @clinics =  @clinics.where(:delegacion => params[:direction].keys)
     end
 
-    @clinics = @clinics.paginate(page: params[:page], :per_page => 8).order('tipoinstitucion')
+	  @clinics = @clinics.paginate(page: params[:page], :per_page => 8).order('prioridad DESC')
     @clinic_type = params[:clinic_type].as_json()
     @cost = params[:cost].as_json()
     @time = params[:time].as_json()

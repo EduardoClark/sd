@@ -7,14 +7,14 @@
             Tipo de prueba </button>
         <ul class="dropdown-menu" role="menu">
           <% if ! @clinic_type.blank? %>
-            <% Clinic.select('tipoi').all().distinct.each do |f| %>
-            <li><%= check_box_tag "clinic_type[#{f.tipoi}]", "#{f.tipoi}", @clinic_type.key?("#{f.tipoi}")%>
-            <label><%= f.tipoi %></label> </li>
+            <% Clinic.select('tipo2').all().distinct.each do |f| %>
+            <li><%= check_box_tag "clinic_type[#{f.tipo2}]", "#{f.tipo2}", @clinic_type.key?("#{f.tipo2}")%>
+            <label><%= f.tipo2 %></label> </li>
             <% end %>
           <%else%>
-            <% Clinic.select('tipoi').all().distinct.each do |f| %>
-            <li><%= check_box_tag "clinic_type[#{f.tipoi}]", "#{f.tipoi}"%>
-            <label><%= f.tipoi %></label> </li>
+            <% Clinic.select('tipo2').all().distinct.each do |f| %>
+            <li><%= check_box_tag "clinic_type[#{f.tipo2}]", "#{f.tipo2}"%>
+            <label><%= f.tipo2 %></label> </li>
             <%end%>
           <%end%>
         </ul>
