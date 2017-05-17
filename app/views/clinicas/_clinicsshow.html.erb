@@ -14,11 +14,17 @@
                     <h4 class="group inner list-group-item-heading"><%= clinic.institucion %></h4>
                     <p class="adress"><%= clinic.direccion %></p>
                     <div class="row" style=" display: flex;height: 100%;">
-                    <div class="col-xs-6 telefono" style=" display: inline-block;align-self: flex-end;">55-1501-2064</div>
+                    <div class="col-xs-6 telefono" style=" display: inline-block;align-self: flex-end;"><%= clinic.telefono %></div>
                     <div class="col-xs-6 horario" style=" display: inline-block;align-self: flex-end;">
-                    <strong>L-V </strong> 7:00 a 19:00<br>
-                    <strong>S </strong> 7:00 a 15:00<br>
-                    <strong>D </strong> 7:00 a 15:00
+                    <% unless clinic.horariolv == '' && clinic.horarios == ''  && clinic.horariod == ''%>
+                        <strong>L-V </strong> <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %><br>                    
+                        <strong>S </strong> <%= clinic.horarios=='' ? 'Cerrado' : clinic.horarios %><br>                    
+                        <strong>D </strong> <%= clinic.horariod=='' ? 'Cerrado' : clinic.horariod %><br>
+                    <% end %>
+                    <% unless clinic.horarionotas == '' %>
+                    <%= clinic.horarionotas %><br>
+                    <% end %>
+                   
 
                     </div>
                     </div>
@@ -26,14 +32,14 @@
 
                     <div class="row servicios">
                          <div class="col-xs-6 specs-1">
-                         <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Prueba Rapida</span></span><br>
-                         <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Gratuita</span></span><br>
-                          <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Servicio Público</span></span>
+                             <span class="<%= 'servicios-no' if clinic.tipoi == 'Rápida'  %>" style="color:#DDDDDD;font-size:12px;" >&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Prueba Rápida</span></span><br>
+                         <span class="<%= 'servicios-si' if clinic.costoi != 'Gratuita' %>" style="color:#7ED321;font-size:12px;" >&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Gratuita</span></span><br>
+                          <span class="<%= 'servicios-si' if clinic.tipoinstitucion != 'Pública' %>" style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Servicio Público</span></span>
 
                          </div>
                          <div class="col-xs-6 specs-1">
-                     <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;"> Prueba de ITS</span></span><br>
-                        <span style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Consejería</span></span>
+                     <span class="<%= 'servicios-no' if clinic.pits != '' %>" style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;"> Prueba de ITS</span></span><br>
+                     <span class="<%= 'servicios-no' if clinic.consejeriai != 'No' %>" style="color:#DDDDDD;font-size:12px;" >&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Consejería</span></span>
 
 
 
@@ -46,7 +52,7 @@
             </div>
         </div>
 
-        <div id="ex1-<%= index %>" class="map-modal" style="display:none;">
+        <div id="ex1-<%= index %>" class="map-modal" style="display:none;fluid: true">
                         <div class="row">
                             <div class="col-sm-7">
                                 <div id="mapid-<%= index %>" class="mapas-modal">
@@ -58,19 +64,22 @@
                                  <div class="row">
                                  <div class="col-sm-6">
                                      <p class="modal-interior-title">Teléfono<br>
-                                     <a class="modal-interior-content"><%= clinic.telefono %>
-                                     </a></p>
+                                     <a class="modal-interior-content"><%= clinic.telefono %><br>
+                                         <a class="modal-interior-content"><%= clinic.notastelefono %><br>
+                                         </a></p>
                                      <p class="modal-interior-title">Dirección<br>
                                          <a class="modal-interior-content"><%= clinic.direccion %>
                                      </a></p>
                                      <p class="modal-interior-title">Horarios<br>
-                                         <a class="modal-interior-content">Lunes:    9:00 a 17:00</a><br>
-                                     <a class="modal-interior-content">Martes:    9:00 a 17:00</a><br>
-                                     <a class="modal-interior-content">Miercoles:    9:00 a 17:00</a><br>
-                                         <a class="modal-interior-content">Jueves:    9:00 a 17:00</a><br>
-                                         <a class="modal-interior-content">Viernes:    9:00 a 17:00</a><br>
-                                         <a class="modal-interior-content">Sabado:    9:00 a 15:00</a><br>
-                                         <a class="modal-interior-content">Domingo:    9:00 a 15:00</a>
+                                         <a class="modal-interior-content">Lunes:   <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+                                     <a class="modal-interior-content">Martes:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+                                     <a class="modal-interior-content">Miercoles:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+                                         <a class="modal-interior-content">Jueves:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+                                         <a class="modal-interior-content">Viernes:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+                                         <a class="modal-interior-content">Sabado:    <%= clinic.horarios=='' ? 'Cerrado' : clinic.horarios %></a><br>
+                                         <a class="modal-interior-content">Domingo:    <%= clinic.horariod=='' ? 'Cerrado' : clinic.horariod %></a><br><br>
+                                         <a class="modal-interior-content">    <%= clinic.horarionotas %></a>
+
                                      </p>                                    
                                     
                                  </div>
@@ -79,10 +88,11 @@
                                      <a class="modal-interior-content"><%= clinic.tipoinstitucion %>
                                      </a></p>
                                       <p class="modal-interior-title">Costo<br>
-                                     <a class="modal-interior-content"><%= clinic.costo %>
+                                     <a class="modal-interior-content"><%= clinic.costo %><br>
+                                          <a class="modal-interior-content"><%= clinic.notascosto %>
                                      </a></p>
                                          <p class="modal-interior-title">Prueba VIH<br>
-                                             <a class="modal-interior-content"><%= clinic.tipo %>
+                                             <a class="modal-interior-content"><%= clinic.tipoi %>
                                      </a></p>
                                          <p class="modal-interior-title">Consejeria<br>
                                              <a class="modal-interior-content"><%= clinic.consejeria %>

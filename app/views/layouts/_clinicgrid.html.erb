@@ -5,9 +5,15 @@
     locals: {clinicas: @clinics }
     ) %>
     <% if ! @clinics.blank? %>
-    <div id="infinite-scrolling">
-        <%= will_paginate @clinics, :previous_label => '<', :next_label => '>', :inner_window => 1, :outer_window => 0 %>
-    </div>
+    <form action="/" method="post">
+        <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+          <div id="infinite-scrolling">
+            <%= will_paginate @clinics,:params => { :clinic_type => @clinic_type,
+                      :cost=>@cost, :time=>@time,:help=>@help,:direction=>@direction},
+                  :previous_label => '<', :next_label => '>', :inner_window => 1, :outer_window => 0  %>
+        </div>
+    </form>
+
     <% end %>
 
 </div>

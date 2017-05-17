@@ -79,6 +79,7 @@ font-family: 'Roboto Condensed', sans-serif !important;
 background-color: #FBFAF3;
 font-size:22px;
 text-align: left;
+     white-space: normal;
 }
 
 #button-start > .btn-primary {
@@ -128,13 +129,13 @@ color:#B1B1B1;
 }
 
 #selector{
-      -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 #button-end > div > input[type="submit"]{
-margin-top:20px;
+
 background-color: #469FFF;
 border-color: #469FFF;
 color:white;
@@ -144,8 +145,11 @@ webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 padding-top: 5px;
     padding-bottom: 5px;
+    white-space: normal;
 }
  
+
+
 
 /* grid-card */
 .thumbnail {
@@ -209,11 +213,6 @@ border-color: #ddd;
 
 .pagination > li > a, .pagination > li > span {
 color:#4a4a4a;
-}
-
-#infinite-scrolling > div > ul > li > a{
-    margin-left: 20px;
-    
 }
 
 /* modal*/
@@ -401,10 +400,22 @@ background: white !important;
   min-height:6em; // this is it
 }
 
+
+.servicios-si{
+      color:#DDDDDD !important;
+    font-size:12px;
+}
+
+.servicios-no{
+    color:#7ED321 !important;  
+    font-size:12px;
+}
+
 /* modal-clinicas*/
 
 .modal{
 max-width: 1100px !important;
+    
 }
 
 .map-modal{
@@ -455,8 +466,6 @@ visibility: hidden !important;
 .leaflet-top{
 padding-left: 30px;
 }
-
-
 
 /* modal-clininicas-map*/
 .mapas-modal{ 

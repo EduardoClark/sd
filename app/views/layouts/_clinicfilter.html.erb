@@ -1,38 +1,107 @@
 <form action="/" method="post">
     <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
     <div class="btn-group btn-group-justified my-btn-group-responsive" id="selector">
+      <div class="btn-group" id="button-start" >
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
+            Tipo de prueba </button>
+        <ul class="dropdown-menu" role="menu">
+          <% if ! @clinic_type.blank? %>
+            <% Clinic.select('tipoi').all().distinct.each do |f| %>
+            <li><%= check_box_tag "clinic_type[#{f.tipoi}]", "#{f.tipoi}", @clinic_type.key?("#{f.tipoi}")%>
+            <label><%= f.tipoi %></label> </li>
+            <% end %>
+          <%else%>
+            <% Clinic.select('tipoi').all().distinct.each do |f| %>
+            <li><%= check_box_tag "clinic_type[#{f.tipoi}]", "#{f.tipoi}"%>
+            <label><%= f.tipoi %></label> </li>
+            <%end%>
+          <%end%>
+        </ul>
+    </div>
 
-    <div class="btn-group" id="button-start">    
-    <%= select_tag(:clinic_type,
-    options_for_select(Clinic.select('tipo').all().distinct.map{ |f| [f.tipo, f.tipo]}), :prompt => "¿Qué necesitas?",:class=>"btn btn-primary dropdown-toggle")   %> </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
+          Costo </button>
+    <ul class="dropdown-menu" role="menu">
+        <% if ! @cost.blank? %>
+          <% Clinic.select('costoi').all().distinct.each do |f| %>
+          <li><%= check_box_tag "cost[#{f.costoi}]", "#{f.costoi}", @cost.key?("#{f.costoi}")%>
+          <label><%= f.costoi %></label> </li>
+          <% end %>
+        <%else%>
+          <% Clinic.select('costoi').all().distinct.each do |f| %>
+          <li><%= check_box_tag "cost[#{f.costoi}]", "#{f.costoi}"%>
+          <label><%= f.costoi %></label> </li>
+          <%end%>
+        <%end%>
+      </ul>
+   </div>
 
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
+          Tiempo para resultados </button>
+    <ul class="dropdown-menu" role="menu">
+        <% if ! @time.blank? %>
+          <% Clinic.select('tiempoi').all().distinct.each do |f| %>
+          <li><%= check_box_tag "time[#{f.tiempoi}]", "#{f.tiempoi}", @time.key?("#{f.tiempoi}")%>
+          <label><%= f.tiempoi %></label> </li>
+          <% end %>
+        <%else%>
+          <% Clinic.select('tiempoi').all().distinct.each do |f| %>
+          <li><%= check_box_tag "time[#{f.tiempoi}]", "#{f.tiempoi}"%>
+          <label><%= f.tiempoi %></label> </li>
+          <%end%>
+        <%end%>
+      </ul>
+   </div>
 
-  <div class="btn-group">    
-    <%= select_tag(:cost,
-     options_for_select(Clinic.select('costoi').all().distinct.map{ |f| [f.costoi, f.costoi]}), :prompt => "Costo",:class=>"btn btn-primary dropdown-toggle") %>
-  </div>
-
-      <div class="btn-group">   
-    <%= select_tag(:time,
-      options_for_select(Clinic.select('tiempoi').all().distinct.map{ |f| [f.tiempoi, f.tiempoi]}), :prompt => "Tiempo para resultados",:class=>"btn btn-primary dropdown-toggle") %>
-  </div>
-
-
-  <div class="btn-group">  
-      <%= select_tag(:help,
-     options_for_select(Clinic.select('consejeriai').all().distinct.map{ |f| [f.consejeriai, f.consejeriai]}), :prompt => "¿Necesitas asesoría?",:class=>"btn btn-primary dropdown-toggle") %>
-  </div>
-
-    <div class="btn-group" id="button-endnext">
-    <%= select_tag(:direction,
-     options_for_select(Clinic.select('direccion').all().distinct.map{ |f| [f.direccion, f.direccion]}), :prompt => "¿Dónde?",:class=>"btn btn-primary dropdown-toggle") %>
-  </div>
+  <div class="btn-group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
+          Asesoría </button>
+    <ul class="dropdown-menu" role="menu">
+        <% if ! @help.blank? %>
+          <% Clinic.select('consejeriai').all().distinct.each do |f| %>
+          <li><%= check_box_tag "help[#{f.consejeriai}]", "#{f.consejeriai}", @help.key?("#{f.consejeriai}")%>
+          <label><%= f.consejeriai %></label> </li>
+          <% end %>
+        <%else%>
+          <% Clinic.select('consejeriai').all().distinct.each do |f| %>
+          <li><%= check_box_tag "help[#{f.consejeriai}]", "#{f.consejeriai}"%>
+          <label><%= f.consejeriai %></label> </li>
+          <%end%>
+        <%end%>
+      </ul>
+   </div>
+  <div class="btn-group" id="button-endnext">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style="line-height:110%;">
+          Delegación </button>
+    <ul class="dropdown-menu" role="menu">
+        <% if ! @direction.blank? %>
+          <% Clinic.select('direccion').all().distinct.each do |f| %>
+          <li><%= check_box_tag "direction[#{f.direccion}]", "#{f.direccion}", @direction.key?("#{f.direccion}")%>
+          <label><%= f.direccion %></label> </li>
+          <% end %>
+        <%else%>
+          <% Clinic.select('direccion').all().distinct.each do |f| %>
+          <li><%= check_box_tag "direction[#{f.direccion}]", "#{f.direccion}"%>
+          <label><%= f.direccion %></label> </li>
+          <%end%>
+        <%end%>
+      </ul>
+   </div>
+    
 
     <div class="btn-group" id="button-end">
             <div class="btn btn-primary btn btn-default btn-lg">
                 <%= submit_tag "Busca una prueba",name: "Search"   %>
             </div>
   </div>
-        
+
 </form>
 </div>
+<script>
+$(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+});
+</script>
