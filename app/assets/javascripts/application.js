@@ -13,5 +13,4 @@
 //= require jquery-3.2.1.min
 //= require jquery_ujs
 //= require turbolinks
-//= require leaflet
 //= require_tree .
