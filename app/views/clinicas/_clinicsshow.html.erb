@@ -2,10 +2,7 @@
     <% if @clinics.blank? %>
   <h4>No hay clinicas con esas caracteristicas.</h4>
     <% else %>
-    <script>
-        var all_maps = [];
-    </script>
-        <% @clinics.each_with_index do |clinic, index| %>
+    <% @clinics.each_with_index do |clinic, index| %>
         <div class="item  col-lg-3">
             <div class="thumbnail">
                 <div class="caption">
@@ -20,14 +17,13 @@
                     <div class="col-xs-6 telefono" style=" display: inline-block;align-self: flex-end;"><%= clinic.telefono %></div>
                     <div class="col-xs-6 horario" style=" display: inline-block;align-self: flex-end;">
                     <% unless clinic.horariolv == '' && clinic.horarios == ''  && clinic.horariod == ''%>
-                        <strong>L-V </strong> <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %><br>                    
-                        <strong>S </strong> <%= clinic.horarios=='' ? 'Cerrado' : clinic.horarios %><br>                    
+                        <strong>L-V </strong> <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %><br>
+                        <strong>S </strong> <%= clinic.horarios=='' ? 'Cerrado' : clinic.horarios %><br>
                         <strong>D </strong> <%= clinic.horariod=='' ? 'Cerrado' : clinic.horariod %><br>
                     <% end %>
                     <% unless clinic.horarionotas == '' %>
                     <%= clinic.horarionotas %><br>
                     <% end %>
-                   
 
                     </div>
                     </div>
@@ -43,7 +39,6 @@
                          <div class="col-xs-6 specs-1">
                      <span class="<%= 'servicios-no' if clinic.pits != '' %>" style="color:#7ED321;font-size:12px;">&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;"> Prueba de ITS</span></span><br>
                      <span class="<%= 'servicios-no' if clinic.consejeriai != 'No' %>" style="color:#DDDDDD;font-size:12px;" >&#11044;&nbsp;&nbsp;<span style="color:#4A4A4A;;font-size:14px;">Consejería</span></span>
-
 
 
                          </div>
@@ -66,7 +61,7 @@
                                  <h4 class="name-clinic-modal"><%= clinic.institucioncorta %></h4>
                                  <div class="row">
                                  <div class="col-sm-6">
-                                     <p class="modal-interior-title">Teléfono<br>
+                                   <p class="modal-interior-title">Teléfono<br>
                                      <a class="modal-interior-content"><%= clinic.telefono %><br>
                                          <a class="modal-interior-content"><%= clinic.notastelefono %><br>
                                          </a></p>
@@ -74,7 +69,8 @@
                                          <a class="modal-interior-content"><%= clinic.direccion %>
                                      </a></p>
                                      <p class="modal-interior-title">Horarios<br>
-                                         <a class="modal-interior-content">Lunes:   <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
+
+                                  <a class="modal-interior-content">Lunes:   <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
                                      <a class="modal-interior-content">Martes:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
                                      <a class="modal-interior-content">Miercoles:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
                                          <a class="modal-interior-content">Jueves:    <%= clinic.horariolv=='' ? 'Cerrado' : clinic.horariolv %></a><br>
@@ -83,17 +79,17 @@
                                          <a class="modal-interior-content">Domingo:    <%= clinic.horariod=='' ? 'Cerrado' : clinic.horariod %></a><br><br>
                                          <a class="modal-interior-content">    <%= clinic.horarionotas %></a>
 
-                                     </p>                                    
-                                    
+                                           </p>
+
                                  </div>
                                  <div class="col-sm-6 modal-interno-derecha">
                                      <p class="modal-interior-title">Servicio<br>
                                      <a class="modal-interior-content"><%= clinic.tipoinstitucion %>
                                      </a></p>
                                       <p class="modal-interior-title">Costo<br>
-                                     <a class="modal-interior-content"><%= clinic.costo %><br>
+                                      <a class="modal-interior-content"><%= clinic.costo %><br>
                                           <a class="modal-interior-content"><%= clinic.notascosto %>
-                                     </a></p>
+                                      </a></p>
                                          <p class="modal-interior-title">Prueba VIH<br>
                                              <a class="modal-interior-content"><%= clinic.tipoi %>
                                      </a></p>
@@ -116,14 +112,17 @@
 
         </div>
         <script>
-                    all_maps.push(L.map('mapid-<%= index %>').setView([19.419444, -99.145556], 13));
-                    var mymap = all_maps[<%= index %>];
+            if (<%=index%> == 0) {
+              var all_maps = [];
+            }
+            all_maps.push(L.map('mapid-<%= index %>').setView([19.419444, -99.145556], 13));
+            var mymap = all_maps[<%= index %>];
                     L.tileLayer('https://api.mapbox.com/styles/v1/eclarkgd/ciwfc2mce004b2plkmujdb3no/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiZWNsYXJrZ2QiLCJhIjoiY2lraXVvaWlzMDUzN3RubTZ2OHBscWRxciJ9.ikI5wjFM2RNcoOrssqx2Zg', {
                     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
                     maxZoom: 18, maxZoom: 18, }).addTo(mymap);
-                    var marker = L.marker([19.419444, -99.145556]).addTo(mymap);       
+                    var marker = L.marker([19.419444, -99.145556]).addTo(mymap);
                     $('#ex1-<%=index%>').on($.modal.OPEN, function () {
-    		           all_maps[<%=index%>].invalidateSize();
+                         all_maps[<%=index%>].invalidateSize();
                     });
         </script>
 
