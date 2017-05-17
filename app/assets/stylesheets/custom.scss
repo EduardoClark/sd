@@ -267,10 +267,13 @@ modal.hr {
 	right: 5px;
 }
 
-#infinite-scrolling > div > ul > li.active > a{
 
+div > div.col-sm-5.modal-content-columns > div > div > p > a:hover{
+text-decoration: none !important;
+font-weight:bold !important;
+	font-style: normal !important;
+} 
 
-}
 
 
 /* footer*/
